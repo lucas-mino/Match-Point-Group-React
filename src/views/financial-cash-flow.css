@@ -259,12 +259,16 @@
   height: 568px;
   display: flex;
   align-self: center;
-  align-items: flex-start;
+  align-items: center;
   padding-top: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-fourunits);
   padding-right: var(--dl-space-space-fourunits);
   padding-bottom: var(--dl-space-space-doubleunit);
   justify-content: center;
+}
+.financial-cash-flow-image1 {
+  width: 100%;
+  object-fit: cover;
 }
 .financial-cash-flow-container07 {
   width: 100%;

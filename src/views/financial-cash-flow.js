@@ -79,7 +79,13 @@ const FinancialCashFlow = (props) => {
                 <span className="financial-cash-flow-text05">Summary</span>
               </div>
             </div>
-            <div className="financial-cash-flow-container06"></div>
+            <div className="financial-cash-flow-container06">
+              <img
+                src="/cashflow-600h.jpg"
+                alt="image"
+                className="financial-cash-flow-image1"
+              />
+            </div>
             <div className="financial-cash-flow-container07">
               <div className="financial-cash-flow-container08">
                 <Link to="/financial" className="financial-cash-flow-navlink6">
