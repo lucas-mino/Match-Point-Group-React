@@ -1,0 +1,323 @@
+.team-lucas-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #141414;
+}
+.team-lucas-page-header {
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.team-lucas-page-container1 {
+  flex: 0 0 auto;
+  width: 287px;
+  height: 47px;
+  display: flex;
+  align-items: flex-start;
+}
+.team-lucas-page-menu {
+  flex: 0 0 auto;
+  width: 282px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.team-lucas-page-logo {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: flex-start;
+}
+.team-lucas-page-navlink {
+  display: contents;
+}
+.team-lucas-page-image {
+  height: 3.2rem;
+  align-self: center;
+  margin-left: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.team-lucas-page-summary {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+  justify-content: flex-start;
+}
+.team-lucas-page-link {
+  color: rgb(224, 224, 224);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-fourunits);
+  font-family: Montserrat;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.team-lucas-page-market {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.team-lucas-page-navlink1 {
+  color: rgb(224, 224, 224);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-fourunits);
+  font-family: Montserrat;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.team-lucas-page-solution {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.team-lucas-page-navlink2 {
+  color: rgb(224, 224, 224);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-fourunits);
+  font-family: Montserrat;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.team-lucas-page-cma {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.team-lucas-page-text {
+  color: rgb(224, 224, 224);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-fourunits);
+  font-family: Montserrat;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.team-lucas-page-financial {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.team-lucas-page-navlink3 {
+  color: rgb(224, 224, 224);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-fourunits);
+  font-family: Montserrat;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.team-lucas-page-timeline {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.team-lucas-page-navlink4 {
+  color: rgb(224, 224, 224);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-fourunits);
+  font-family: Montserrat;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.team-lucas-page-team {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.team-lucas-page-navlink5 {
+  color: rgb(224, 224, 224);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-fourunits);
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.team-lucas-page-contact-us {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-tenunits);
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.team-lucas-page-button {
+  color: #e7e7e7;
+  font-size: 16px;
+  transition: 0.3s;
+  padding-top: 10px;
+  border-color: #1a1b1f;
+  border-width: 0px;
+  padding-left: 20px;
+  border-radius: 0px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  background-color: #1a1b1f;
+  border-top-width: 0px;
+}
+.team-lucas-page-button:hover {
+  color: var(--dl-color-gray-black);
+  border-color: var(--dl-color-gray-900);
+  border-radius: 0px;
+  background-color: var(--dl-color-gray-900);
+}
+.team-lucas-page-container2 {
+  flex: 0 0 auto;
+  width: 952px;
+  height: 692px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fff;
+}
+.team-lucas-page-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: flex-start;
+}
+.team-lucas-page-container4 {
+  flex: 0 0 auto;
+  width: 658px;
+  height: 60px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.team-lucas-page-container5 {
+  flex: 0 0 auto;
+  width: 301px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #dcfe63;
+}
+.team-lucas-page-text01 {
+  font-size: 24px;
+  align-self: center;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.team-lucas-page-container6 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.team-lucas-page-foto {
+  flex: 0 0 auto;
+  width: 117px;
+  height: 93px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.team-lucas-page-image1 {
+  width: 90px;
+  height: 86px;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-left: 20px;
+}
+.team-lucas-page-nombre {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  flex-direction: column;
+}
+.team-lucas-page-nombre1 {
+  width: 488px;
+  height: 53px;
+  display: flex;
+  align-items: flex-start;
+}
+.team-lucas-page-link1 {
+  font-size: 40px;
+  font-family: Montserrat;
+}
+.team-lucas-page-cargo {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: flex-start;
+}
+.team-lucas-page-link2 {
+  color: #848484;
+  font-size: 16px;
+  font-family: Montserrat;
+}
+.team-lucas-page-container7 {
+  width: 100%;
+  height: 630px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-fourunits);
+}
+.team-lucas-page-text04 {
+  text-align: justify;
+  font-family: Montserrat;
+}
+@media(max-width: 767px) {
+  .team-lucas-page-header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .team-lucas-page-header {
+    padding: var(--dl-space-space-unit);
+  }
+}
