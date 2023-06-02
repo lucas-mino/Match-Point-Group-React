@@ -56,7 +56,12 @@ const HomeProject = (props) => {
               </Link>
             </div>
             <div className="home-project-contact-us">
-              <button className="home-project-button button">CONTACT US</button>
+              <a
+                href="mailto:hey@matchpointglobal.com?subject=Investment contact"
+                className="home-project-link button"
+              >
+                CONTACT US
+              </a>
             </div>
           </div>
           <div className="home-project-container02">

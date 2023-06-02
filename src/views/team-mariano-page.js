@@ -64,9 +64,12 @@ const TeamMarianoPage = (props) => {
               </Link>
             </div>
             <div className="team-mariano-page-contact-us">
-              <button className="team-mariano-page-button button">
+              <a
+                href="mailto:hey@matchpointglobal.com?subject=Investment contact"
+                className="team-mariano-page-link button"
+              >
                 CONTACT US
-              </button>
+              </a>
             </div>
           </div>
           <div className="team-mariano-page-container2">
@@ -82,7 +85,7 @@ const TeamMarianoPage = (props) => {
                   href="https://www.linkedin.com/in/mariano-welch-3275b8128/"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="team-mariano-page-link"
+                  className="team-mariano-page-link1"
                 >
                   <img
                     alt="image"
@@ -97,13 +100,13 @@ const TeamMarianoPage = (props) => {
                     href="https://www.linkedin.com/in/mariano-welch-3275b8128/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="team-mariano-page-link1"
+                    className="team-mariano-page-link2"
                   >
                     Mariano Welch
                   </a>
                 </div>
                 <div className="team-mariano-page-cargo">
-                  <span className="team-mariano-page-link2">CCO</span>
+                  <span className="team-mariano-page-link3">CCO</span>
                 </div>
               </div>
             </div>

@@ -62,9 +62,12 @@ const FinancialCashFlow = (props) => {
               </Link>
             </div>
             <div className="financial-cash-flow-contact-us">
-              <button className="financial-cash-flow-button button">
+              <a
+                href="mailto:hey@matchpointglobal.com?subject=Investment contact"
+                className="financial-cash-flow-link button"
+              >
                 CONTACT US
-              </button>
+              </a>
             </div>
           </div>
           <div className="financial-cash-flow-container02">

@@ -58,7 +58,12 @@ const Timeline = (props) => {
               </Link>
             </div>
             <div className="timeline-contact-us">
-              <button className="timeline-button button">CONTACT US</button>
+              <a
+                href="mailto:hey@matchpointglobal.com?subject=Investment contact"
+                className="timeline-link button"
+              >
+                CONTACT US
+              </a>
             </div>
           </div>
           <div className="timeline-container2">

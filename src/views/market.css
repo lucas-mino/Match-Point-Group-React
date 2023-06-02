@@ -182,7 +182,7 @@
   padding-top: var(--dl-space-space-tenunits);
   padding-left: var(--dl-space-space-fiveunits);
 }
-.market-button {
+.market-link {
   color: #e7e7e7;
   font-size: 16px;
   transition: 0.3s;
@@ -193,10 +193,11 @@
   border-radius: 0px;
   padding-right: 20px;
   padding-bottom: 10px;
+  text-decoration: none;
   background-color: #1a1b1f;
   border-top-width: 0px;
 }
-.market-button:hover {
+.market-link:hover {
   color: var(--dl-color-gray-black);
   border-color: var(--dl-color-gray-900);
   border-radius: 0px;

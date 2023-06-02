@@ -59,9 +59,12 @@ const SolutionStack = (props) => {
               </Link>
             </div>
             <div className="solution-stack-contact-us">
-              <button className="solution-stack-button button">
+              <a
+                href="mailto:hey@matchpointglobal.com?subject=Investment contact"
+                className="solution-stack-link button"
+              >
                 CONTACT US
-              </button>
+              </a>
             </div>
           </div>
           <div className="solution-stack-container02">

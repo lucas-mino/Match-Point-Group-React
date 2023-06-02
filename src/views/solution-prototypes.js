@@ -59,9 +59,12 @@ const SolutionPrototypes = (props) => {
               </Link>
             </div>
             <div className="solution-prototypes-contact-us">
-              <button className="solution-prototypes-button button">
+              <a
+                href="mailto:hey@matchpointglobal.com?subject=Investment contact"
+                className="solution-prototypes-link button"
+              >
                 CONTACT US
-              </button>
+              </a>
             </div>
           </div>
           <div className="solution-prototypes-container02">

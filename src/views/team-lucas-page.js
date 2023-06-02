@@ -64,9 +64,12 @@ const TeamLucasPage = (props) => {
               </Link>
             </div>
             <div className="team-lucas-page-contact-us">
-              <button className="team-lucas-page-button button">
+              <a
+                href="mailto:hey@matchpointglobal.com?subject=Investment contact"
+                className="team-lucas-page-link1 button"
+              >
                 CONTACT US
-              </button>
+              </a>
             </div>
           </div>
           <div className="team-lucas-page-container2">
@@ -90,7 +93,7 @@ const TeamLucasPage = (props) => {
                     href="https://example.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="team-lucas-page-link1"
+                    className="team-lucas-page-link2"
                   >
                     <span>Lucas Miño</span>
                     <br></br>
@@ -101,7 +104,7 @@ const TeamLucasPage = (props) => {
                     href="https://example.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="team-lucas-page-link2"
+                    className="team-lucas-page-link3"
                   >
                     CCO
                   </a>

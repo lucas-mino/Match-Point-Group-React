@@ -59,9 +59,12 @@ const SolutionOverview = (props) => {
               </Link>
             </div>
             <div className="solution-overview-contact-us">
-              <button className="solution-overview-button button">
+              <a
+                href="mailto:hey@matchpointglobal.com?subject=Investment contact"
+                className="solution-overview-link button"
+              >
                 CONTACT US
-              </button>
+              </a>
             </div>
           </div>
           <div className="solution-overview-container02">

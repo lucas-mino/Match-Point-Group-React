@@ -64,9 +64,12 @@ const TeamSilvanaPage = (props) => {
               </Link>
             </div>
             <div className="team-silvana-page-contact-us">
-              <button className="team-silvana-page-button button">
+              <a
+                href="mailto:hey@matchpointglobal.com?subject=Investment contact"
+                className="team-silvana-page-link button"
+              >
                 CONTACT US
-              </button>
+              </a>
             </div>
           </div>
           <div className="team-silvana-page-container2">
@@ -82,7 +85,7 @@ const TeamSilvanaPage = (props) => {
                   href="https://www.linkedin.com/in/silvana-laura-su%C3%A1rez-3882a529/"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="team-silvana-page-link"
+                  className="team-silvana-page-link1"
                 >
                   <img
                     alt="image"
@@ -97,14 +100,14 @@ const TeamSilvanaPage = (props) => {
                     href="https://www.linkedin.com/in/silvana-laura-su%C3%A1rez-3882a529/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="team-silvana-page-link1"
+                    className="team-silvana-page-link2"
                   >
                     <span>Silvana Suarez</span>
                     <br></br>
                   </a>
                 </div>
                 <div className="team-silvana-page-cargo">
-                  <span className="team-silvana-page-link2">COO</span>
+                  <span className="team-silvana-page-link3">COO</span>
                 </div>
               </div>
             </div>

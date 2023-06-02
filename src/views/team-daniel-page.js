@@ -64,9 +64,12 @@ const TeamDanielPage = (props) => {
               </Link>
             </div>
             <div className="team-daniel-page-contact-us">
-              <button className="team-daniel-page-button button">
+              <a
+                href="mailto:hey@matchpointglobal.com?subject=Investment contact"
+                className="team-daniel-page-link button"
+              >
                 CONTACT US
-              </button>
+              </a>
             </div>
           </div>
           <div className="team-daniel-page-container2">
@@ -90,7 +93,7 @@ const TeamDanielPage = (props) => {
                     href="https://example.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="team-daniel-page-link"
+                    className="team-daniel-page-link1"
                   >
                     <span>Daniel Orsanic</span>
                     <br></br>
@@ -101,7 +104,7 @@ const TeamDanielPage = (props) => {
                     href="https://example.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="team-daniel-page-link1"
+                    className="team-daniel-page-link2"
                   >
                     Brand Ambassador
                   </a>

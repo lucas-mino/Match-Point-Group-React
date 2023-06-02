@@ -58,7 +58,12 @@ const Market = (props) => {
               </Link>
             </div>
             <div className="market-contact-us">
-              <button className="market-button button">CONTACT US</button>
+              <a
+                href="mailto:hey@matchpointglobal.com?subject=Investment contact"
+                className="market-link button"
+              >
+                CONTACT US
+              </a>
             </div>
           </div>
           <div className="market-container2">
