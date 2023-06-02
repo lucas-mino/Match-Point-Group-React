@@ -183,7 +183,7 @@
   padding-top: var(--dl-space-space-tenunits);
   padding-left: var(--dl-space-space-fiveunits);
 }
-.home-button {
+.home-link {
   color: #e7e7e7;
   font-size: 16px;
   transition: 0.3s;
@@ -194,10 +194,11 @@
   border-radius: 0px;
   padding-right: 20px;
   padding-bottom: 10px;
+  text-decoration: none;
   background-color: #1a1b1f;
   border-top-width: 0px;
 }
-.home-button:hover {
+.home-link:hover {
   color: var(--dl-color-gray-black);
   border-color: var(--dl-color-gray-900);
   border-radius: 0px;
@@ -221,7 +222,7 @@
   padding-left: 21px;
   padding-right: 21px;
   padding-bottom: var(--dl-space-space-unit);
-  background-color: #000000;
+  background-color: #141414;
 }
 .home-navlink7 {
   display: contents;

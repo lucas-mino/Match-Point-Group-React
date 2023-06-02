@@ -56,7 +56,12 @@ const FinancialPl = (props) => {
               </Link>
             </div>
             <div className="financial-pl-contact-us">
-              <button className="financial-pl-button button">CONTACT US</button>
+              <a
+                href="mailto:hey@matchpointglobal.com?subject=Investment contact"
+                className="financial-pl-link button"
+              >
+                CONTACT US
+              </a>
             </div>
           </div>
           <div className="financial-pl-container02">

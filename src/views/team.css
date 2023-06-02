@@ -183,7 +183,7 @@
   padding-top: var(--dl-space-space-tenunits);
   padding-left: var(--dl-space-space-fiveunits);
 }
-.team-button {
+.team-link01 {
   color: #e7e7e7;
   font-size: 16px;
   transition: 0.3s;
@@ -194,10 +194,11 @@
   border-radius: 0px;
   padding-right: 20px;
   padding-bottom: 10px;
+  text-decoration: none;
   background-color: #1a1b1f;
   border-top-width: 0px;
 }
-.team-button:hover {
+.team-link01:hover {
   color: var(--dl-color-gray-black);
   border-color: var(--dl-color-gray-900);
   border-radius: 0px;
@@ -309,7 +310,7 @@
   align-items: center;
   justify-content: center;
 }
-.team-link1 {
+.team-link02 {
   font-size: 20px;
   font-family: Montserrat;
   text-decoration: none;
@@ -322,7 +323,7 @@
   align-items: center;
   justify-content: center;
 }
-.team-link2 {
+.team-link03 {
   color: #848484;
   font-size: 16px;
   font-family: Montserrat;
@@ -368,7 +369,7 @@
   align-items: center;
   justify-content: center;
 }
-.team-link3 {
+.team-link04 {
   font-size: 20px;
   font-family: Montserrat;
   text-decoration: none;
@@ -381,7 +382,7 @@
   align-items: center;
   justify-content: center;
 }
-.team-link4 {
+.team-link05 {
   color: #848484;
   font-size: 16px;
   font-family: Montserrat;
@@ -426,7 +427,7 @@
   align-items: center;
   justify-content: center;
 }
-.team-link5 {
+.team-link06 {
   font-size: 20px;
   font-family: Montserrat;
   text-decoration: none;
@@ -439,7 +440,7 @@
   align-items: center;
   justify-content: center;
 }
-.team-link6 {
+.team-link07 {
   color: rgb(132, 132, 132);
   font-size: 16px;
   font-family: Montserrat;
@@ -485,7 +486,7 @@
   align-items: center;
   justify-content: center;
 }
-.team-link7 {
+.team-link08 {
   font-size: 20px;
   font-family: Montserrat;
   text-decoration: none;
@@ -498,7 +499,7 @@
   align-items: center;
   justify-content: center;
 }
-.team-link8 {
+.team-link09 {
   color: #848484;
   font-size: 16px;
   font-family: Montserrat;

@@ -58,7 +58,12 @@ const Team = (props) => {
               </Link>
             </div>
             <div className="team-contact-us">
-              <button className="team-button button">CONTACT US</button>
+              <a
+                href="mailto:hey@matchpointglobal.com?subject=Investment contact"
+                className="team-link01 button"
+              >
+                CONTACT US
+              </a>
             </div>
           </div>
           <div className="team-container2">
@@ -83,13 +88,13 @@ const Team = (props) => {
                   </div>
                 </Link>
                 <div className="team-nombre">
-                  <Link to="/team-silvana-page" className="team-link1">
+                  <Link to="/team-silvana-page" className="team-link02">
                     <span>Silvana Suarez</span>
                     <br></br>
                   </Link>
                 </div>
                 <div className="team-cargo">
-                  <Link to="/team-silvana-page" className="team-link2">
+                  <Link to="/team-silvana-page" className="team-link03">
                     CCO
                   </Link>
                 </div>
@@ -105,7 +110,7 @@ const Team = (props) => {
                   </Link>
                 </div>
                 <div className="team-nombre1">
-                  <Link to="/team-mariano-page" className="team-link3">
+                  <Link to="/team-mariano-page" className="team-link04">
                     Mariano Welch
                   </Link>
                 </div>
@@ -114,7 +119,7 @@ const Team = (props) => {
                     href="https://example.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="team-link4"
+                    className="team-link05"
                   >
                     CEO
                   </a>
@@ -131,13 +136,13 @@ const Team = (props) => {
                   </Link>
                 </div>
                 <div className="team-nombre2">
-                  <Link to="/team-daniel-page" className="team-link5">
+                  <Link to="/team-daniel-page" className="team-link06">
                     <span>Daniel Orsanic</span>
                     <br></br>
                   </Link>
                 </div>
                 <div className="team-cargo2">
-                  <Link to="/team-daniel-page" className="team-link6">
+                  <Link to="/team-daniel-page" className="team-link07">
                     Brand Ambassador
                   </Link>
                 </div>
@@ -153,12 +158,12 @@ const Team = (props) => {
                   </Link>
                 </div>
                 <div className="team-nombre3">
-                  <Link to="/team-lucas-page" className="team-link7">
+                  <Link to="/team-lucas-page" className="team-link08">
                     Lucas Miño
                   </Link>
                 </div>
                 <div className="team-cargo3">
-                  <Link to="/team-lucas-page" className="team-link8">
+                  <Link to="/team-lucas-page" className="team-link09">
                     CTO
                   </Link>
                 </div>
