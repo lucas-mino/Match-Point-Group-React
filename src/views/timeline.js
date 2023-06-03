@@ -39,21 +39,23 @@ const Timeline = (props) => {
                 03  SOLUTION
               </Link>
             </div>
-            <div className="timeline-cma">
-              <span className="timeline-text">04  CMA</span>
-            </div>
+            <Link to="/cma" className="timeline-navlink4">
+              <div className="timeline-cma">
+                <span className="timeline-text">04  CMA</span>
+              </div>
+            </Link>
             <div className="timeline-financial">
-              <Link to="/financial" className="timeline-navlink4">
+              <Link to="/financial" className="timeline-navlink5">
                 05  FINANCIAL
               </Link>
             </div>
             <div className="timeline-timeline">
-              <Link to="/timeline" className="timeline-navlink5">
+              <Link to="/timeline" className="timeline-navlink6">
                 06  TIMELINE
               </Link>
             </div>
             <div className="timeline-team">
-              <Link to="/team" className="timeline-navlink6">
+              <Link to="/team" className="timeline-navlink7">
                 07  TEAM
               </Link>
             </div>

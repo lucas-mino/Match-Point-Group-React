@@ -111,7 +111,7 @@
   align-items: center;
   padding-left: var(--dl-space-space-fiveunits);
 }
-.financial-pl-text {
+.financial-pl-navlink4 {
   color: rgb(224, 224, 224);
   font-size: 20px;
   font-style: normal;
@@ -119,6 +119,7 @@
   font-family: Montserrat;
   font-weight: 300;
   margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
 }
 .financial-pl-financial {
   flex: 0 0 auto;
@@ -128,7 +129,7 @@
   align-items: center;
   padding-left: var(--dl-space-space-fiveunits);
 }
-.financial-pl-text01 {
+.financial-pl-text {
   color: rgb(224, 224, 224);
   font-size: 20px;
   font-style: normal;
@@ -145,7 +146,7 @@
   align-items: center;
   padding-left: var(--dl-space-space-fiveunits);
 }
-.financial-pl-navlink4 {
+.financial-pl-navlink5 {
   color: rgb(224, 224, 224);
   font-size: 20px;
   font-style: normal;
@@ -163,7 +164,7 @@
   align-items: center;
   padding-left: var(--dl-space-space-fiveunits);
 }
-.financial-pl-navlink5 {
+.financial-pl-navlink6 {
   color: rgb(224, 224, 224);
   font-size: 20px;
   font-style: normal;
@@ -228,7 +229,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.financial-pl-text02 {
+.financial-pl-text01 {
   font-size: 28px;
   align-self: flex-start;
   font-style: normal;
@@ -248,7 +249,7 @@
   justify-content: center;
   background-color: #dcfe63;
 }
-.financial-pl-text05 {
+.financial-pl-text04 {
   font-size: 24px;
   align-self: center;
   font-style: normal;
@@ -291,7 +292,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.financial-pl-text06 {
+.financial-pl-text05 {
   color: var(--dl-color-gray-white);
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
@@ -314,7 +315,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.financial-pl-navlink6 {
+.financial-pl-navlink7 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 400;
@@ -331,7 +332,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.financial-pl-navlink7 {
+.financial-pl-navlink8 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 400;

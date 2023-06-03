@@ -110,23 +110,6 @@
   align-items: center;
   padding-left: var(--dl-space-space-fiveunits);
 }
-.solution-overview-text1 {
-  color: rgb(224, 224, 224);
-  font-size: 20px;
-  font-style: normal;
-  margin-top: var(--dl-space-space-fourunits);
-  font-family: Montserrat;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-fourunits);
-}
-.solution-overview-financial {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  padding-left: var(--dl-space-space-fiveunits);
-}
 .solution-overview-navlink3 {
   color: rgb(224, 224, 224);
   font-size: 20px;
@@ -137,7 +120,7 @@
   margin-bottom: var(--dl-space-space-fourunits);
   text-decoration: none;
 }
-.solution-overview-timeline {
+.solution-overview-financial {
   flex: 0 0 auto;
   width: 100%;
   height: 60px;
@@ -155,7 +138,7 @@
   margin-bottom: var(--dl-space-space-fourunits);
   text-decoration: none;
 }
-.solution-overview-team {
+.solution-overview-timeline {
   flex: 0 0 auto;
   width: 100%;
   height: 60px;
@@ -164,6 +147,24 @@
   padding-left: var(--dl-space-space-fiveunits);
 }
 .solution-overview-navlink5 {
+  color: rgb(224, 224, 224);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-fourunits);
+  font-family: Montserrat;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.solution-overview-team {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.solution-overview-navlink6 {
   color: rgb(224, 224, 224);
   font-size: 20px;
   font-style: normal;
@@ -228,7 +229,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.solution-overview-text2 {
+.solution-overview-text1 {
   font-size: 28px;
   align-self: flex-start;
   font-style: normal;
@@ -248,7 +249,7 @@
   justify-content: center;
   background-color: #dcfe63;
 }
-.solution-overview-text5 {
+.solution-overview-text4 {
   font-size: 24px;
   align-self: center;
   font-style: normal;
@@ -284,7 +285,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.solution-overview-text6 {
+.solution-overview-text5 {
   color: var(--dl-color-gray-white);
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
@@ -308,7 +309,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.solution-overview-navlink6 {
+.solution-overview-navlink7 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 400;
@@ -325,7 +326,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.solution-overview-navlink7 {
+.solution-overview-navlink8 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 400;

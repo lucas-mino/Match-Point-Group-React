@@ -55,7 +55,7 @@
   padding-left: var(--dl-space-space-fiveunits);
   justify-content: flex-start;
 }
-.blank-navlink {
+.blank-text {
   color: rgb(224, 224, 224);
   font-size: 20px;
   font-style: normal;
@@ -158,7 +158,7 @@
   align-items: center;
   padding-left: var(--dl-space-space-fiveunits);
 }
-.blank-navlink1 {
+.blank-navlink {
   color: rgb(224, 224, 224);
   font-size: 20px;
   font-style: normal;
@@ -231,7 +231,7 @@
   justify-content: center;
   background-color: #dcfe63;
 }
-.blank-text {
+.blank-text1 {
   font-size: 24px;
   align-self: center;
   font-style: normal;

@@ -41,20 +41,22 @@ const SolutionPrototypes = (props) => {
               <span className="solution-prototypes-text">03  SOLUTION</span>
             </div>
             <div className="solution-prototypes-cma">
-              <span className="solution-prototypes-text1">04  CMA</span>
+              <Link to="/cma" className="solution-prototypes-navlink3">
+                04  CMA
+              </Link>
             </div>
             <div className="solution-prototypes-financial">
-              <Link to="/financial" className="solution-prototypes-navlink3">
+              <Link to="/financial" className="solution-prototypes-navlink4">
                 05  FINANCIAL
               </Link>
             </div>
             <div className="solution-prototypes-timeline">
-              <Link to="/timeline" className="solution-prototypes-navlink4">
+              <Link to="/timeline" className="solution-prototypes-navlink5">
                 06  TIMELINE
               </Link>
             </div>
             <div className="solution-prototypes-team">
-              <Link to="/team" className="solution-prototypes-navlink5">
+              <Link to="/team" className="solution-prototypes-navlink6">
                 07  TEAM
               </Link>
             </div>
@@ -70,13 +72,13 @@ const SolutionPrototypes = (props) => {
           <div className="solution-prototypes-container02">
             <div className="solution-prototypes-container03">
               <div className="solution-prototypes-container04">
-                <span className="solution-prototypes-text2">
+                <span className="solution-prototypes-text1">
                   <span>PROTOTYPES</span>
                   <br></br>
                 </span>
               </div>
               <div className="solution-prototypes-container05">
-                <span className="solution-prototypes-text5">Summary</span>
+                <span className="solution-prototypes-text4">Solution</span>
               </div>
             </div>
             <div className="solution-prototypes-container06">
@@ -105,18 +107,18 @@ const SolutionPrototypes = (props) => {
               <div className="solution-prototypes-container08">
                 <Link
                   to="/solution-overview"
-                  className="solution-prototypes-navlink6"
+                  className="solution-prototypes-navlink7"
                 >
                   OVERVIEW |
                 </Link>
               </div>
               <div className="solution-prototypes-container09">
-                <span className="solution-prototypes-text6"> PROTOTYPES </span>
+                <span className="solution-prototypes-text5"> PROTOTYPES </span>
               </div>
               <div className="solution-prototypes-container10">
                 <Link
                   to="/solution-stack"
-                  className="solution-prototypes-navlink7"
+                  className="solution-prototypes-navlink8"
                 >
                   |  STACK
                 </Link>

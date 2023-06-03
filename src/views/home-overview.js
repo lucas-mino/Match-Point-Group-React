@@ -38,20 +38,22 @@ const HomeOverview = (props) => {
               <span className="home-overview-text">03  SOLUTION</span>
             </div>
             <div className="home-overview-cma">
-              <span className="home-overview-text1">04  CMA</span>
+              <Link to="/cma" className="home-overview-navlink03">
+                04  CMA
+              </Link>
             </div>
             <div className="home-overview-financial">
-              <Link to="/financial" className="home-overview-navlink03">
+              <Link to="/financial" className="home-overview-navlink04">
                 05  FINANCIAL
               </Link>
             </div>
             <div className="home-overview-timeline">
-              <Link to="/timeline" className="home-overview-navlink04">
+              <Link to="/timeline" className="home-overview-navlink05">
                 06  TIMELINE
               </Link>
             </div>
             <div className="home-overview-team">
-              <Link to="/team" className="home-overview-navlink05">
+              <Link to="/team" className="home-overview-navlink06">
                 07  TEAM
               </Link>
             </div>
@@ -67,10 +69,10 @@ const HomeOverview = (props) => {
           <div className="home-overview-container02">
             <div className="home-overview-container03">
               <div className="home-overview-container04">
-                <span className="home-overview-text2">PRODUCT OVERVIEW</span>
+                <span className="home-overview-text1">PRODUCT OVERVIEW</span>
               </div>
               <div className="home-overview-container05">
-                <span className="home-overview-text3">Summary</span>
+                <span className="home-overview-text2">Summary</span>
               </div>
             </div>
             <div className="home-overview-container06">
@@ -82,22 +84,22 @@ const HomeOverview = (props) => {
             </div>
             <div className="home-overview-container07">
               <div className="home-overview-container08">
-                <Link to="/home-summary" className="home-overview-navlink06">
+                <Link to="/home-summary" className="home-overview-navlink07">
                   INTRO
                 </Link>
               </div>
               <div className="home-overview-container09">
-                <Link to="/home-project" className="home-overview-navlink07">
+                <Link to="/home-project" className="home-overview-navlink08">
                   | PROJECT |
                 </Link>
               </div>
               <div className="home-overview-container10">
-                <Link to="/home-overview" className="home-overview-navlink08">
+                <Link to="/home-overview" className="home-overview-navlink09">
                   PRODUCT OVERVIEW
                 </Link>
               </div>
               <div className="home-overview-container11">
-                <Link to="/home-features" className="home-overview-navlink09">
+                <Link to="/home-features" className="home-overview-navlink10">
                   | FEATURES
                 </Link>
               </div>

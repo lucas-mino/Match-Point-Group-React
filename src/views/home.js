@@ -40,20 +40,22 @@ const Home = (props) => {
               </Link>
             </div>
             <div className="home-cma">
-              <span className="home-text">04  CMA</span>
+              <Link to="/cma" className="home-navlink4">
+                04  CMA
+              </Link>
             </div>
             <div className="home-financial">
-              <Link to="/financial" className="home-navlink4">
+              <Link to="/financial" className="home-navlink5">
                 05  FINANCIAL
               </Link>
             </div>
             <div className="home-timeline">
-              <Link to="/timeline" className="home-navlink5">
+              <Link to="/timeline" className="home-navlink6">
                 06  TIMELINE
               </Link>
             </div>
             <div className="home-team">
-              <Link to="/team" className="home-navlink6">
+              <Link to="/team" className="home-navlink7">
                 07  TEAM
               </Link>
             </div>
@@ -68,7 +70,7 @@ const Home = (props) => {
           </div>
           <div className="home-container2">
             <div className="home-container3">
-              <Link to="/home-summary" className="home-navlink7">
+              <Link to="/home-summary" className="home-navlink8">
                 <img
                   alt="image"
                   src="/logomp-1500h.png"

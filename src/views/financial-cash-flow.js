@@ -46,18 +46,20 @@ const FinancialCashFlow = (props) => {
               </Link>
             </div>
             <div className="financial-cash-flow-cma">
-              <span className="financial-cash-flow-text">04  CMA</span>
+              <Link to="/cma" className="financial-cash-flow-navlink4">
+                04  CMA
+              </Link>
             </div>
             <div className="financial-cash-flow-financial">
-              <span className="financial-cash-flow-text01">05  FINANCIAL</span>
+              <span className="financial-cash-flow-text">05  FINANCIAL</span>
             </div>
             <div className="financial-cash-flow-timeline">
-              <Link to="/timeline" className="financial-cash-flow-navlink4">
+              <Link to="/timeline" className="financial-cash-flow-navlink5">
                 06  TIMELINE
               </Link>
             </div>
             <div className="financial-cash-flow-team">
-              <Link to="/team" className="financial-cash-flow-navlink5">
+              <Link to="/team" className="financial-cash-flow-navlink6">
                 07  TEAM
               </Link>
             </div>
@@ -73,13 +75,13 @@ const FinancialCashFlow = (props) => {
           <div className="financial-cash-flow-container02">
             <div className="financial-cash-flow-container03">
               <div className="financial-cash-flow-container04">
-                <span className="financial-cash-flow-text02">
+                <span className="financial-cash-flow-text01">
                   <span>Cash Flow</span>
                   <br></br>
                 </span>
               </div>
               <div className="financial-cash-flow-container05">
-                <span className="financial-cash-flow-text05">Summary</span>
+                <span className="financial-cash-flow-text04">Financial</span>
               </div>
             </div>
             <div className="financial-cash-flow-container06">
@@ -91,23 +93,23 @@ const FinancialCashFlow = (props) => {
             </div>
             <div className="financial-cash-flow-container07">
               <div className="financial-cash-flow-container08">
-                <Link to="/financial" className="financial-cash-flow-navlink6">
+                <Link to="/financial" className="financial-cash-flow-navlink7">
                   P&amp;L  |
                 </Link>
               </div>
               <div className="financial-cash-flow-container09">
                 <Link
                   to="/financial-investment"
-                  className="financial-cash-flow-navlink7"
+                  className="financial-cash-flow-navlink8"
                 >
-                  <span className="financial-cash-flow-text06">
+                  <span className="financial-cash-flow-text05">
                     INVESTMENT   |
                   </span>
-                  <br className="financial-cash-flow-text07"></br>
+                  <br className="financial-cash-flow-text06"></br>
                 </Link>
               </div>
               <div className="financial-cash-flow-container10">
-                <span className="financial-cash-flow-text08">
+                <span className="financial-cash-flow-text07">
                   <span>CASH FLOW</span>
                   <br></br>
                 </span>

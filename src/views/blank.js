@@ -19,9 +19,7 @@ const Blank = (props) => {
               <img alt="logo" src="/logomp-1500h.png" className="blank-image" />
             </div>
             <div className="blank-summary">
-              <Link to="/page" className="blank-navlink">
-                01  SUMMARY
-              </Link>
+              <span className="blank-text">01  SUMMARY</span>
             </div>
             <div className="blank-market">
               <a
@@ -74,7 +72,7 @@ const Blank = (props) => {
               </a>
             </div>
             <div className="blank-team">
-              <Link to="/team" className="blank-navlink1">
+              <Link to="/team" className="blank-navlink">
                 07  TEAM
               </Link>
             </div>
@@ -86,7 +84,7 @@ const Blank = (props) => {
             <div className="blank-container3">
               <div className="blank-container4"></div>
               <div className="blank-container5">
-                <span className="blank-text">Team</span>
+                <span className="blank-text1">Team</span>
               </div>
             </div>
             <div className="blank-container6"></div>

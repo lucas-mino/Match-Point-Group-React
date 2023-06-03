@@ -40,20 +40,22 @@ const HomeSummary = (props) => {
               </Link>
             </div>
             <div className="home-summary-cma">
-              <span className="home-summary-text">04  CMA</span>
+              <Link to="/cma" className="home-summary-navlink04">
+                04  CMA
+              </Link>
             </div>
             <div className="home-summary-financial">
-              <Link to="/financial" className="home-summary-navlink04">
+              <Link to="/financial" className="home-summary-navlink05">
                 05  FINANCIAL
               </Link>
             </div>
             <div className="home-summary-timeline">
-              <Link to="/timeline" className="home-summary-navlink05">
+              <Link to="/timeline" className="home-summary-navlink06">
                 06  TIMELINE
               </Link>
             </div>
             <div className="home-summary-team">
-              <Link to="/team" className="home-summary-navlink06">
+              <Link to="/team" className="home-summary-navlink07">
                 07  TEAM
               </Link>
             </div>
@@ -69,18 +71,18 @@ const HomeSummary = (props) => {
           <div className="home-summary-container02">
             <div className="home-summary-container03">
               <div className="home-summary-container04">
-                <span className="home-summary-text01">
+                <span className="home-summary-text">
                   <span>INTRO</span>
                   <br></br>
                 </span>
               </div>
               <div className="home-summary-container05">
-                <span className="home-summary-text04">Summary</span>
+                <span className="home-summary-text03">Summary</span>
               </div>
             </div>
             <div className="home-summary-container06">
-              <span className="home-summary-text05">
-                <span className="home-summary-text06">
+              <span className="home-summary-text04">
+                <span className="home-summary-text05">
                   We are excited to introduce our Uruguayan Healthtech project,
                   <span
                     dangerouslySetInnerHTML={{
@@ -88,16 +90,16 @@ const HomeSummary = (props) => {
                     }}
                   />
                 </span>
-                <span className="home-summary-text07">Match Point</span>
-                <span className="home-summary-text08">
+                <span className="home-summary-text06">Match Point</span>
+                <span className="home-summary-text07">
                   , which we are developing in partnership with a leading
                   software development company. Match Point is already making
                   waves in Argentina, and we believe it has tremendous potential
                   to disrupt the global tennis ecosystem.
                 </span>
+                <br className="home-summary-text08"></br>
                 <br className="home-summary-text09"></br>
-                <br className="home-summary-text10"></br>
-                <span className="home-summary-text11">
+                <span className="home-summary-text10">
                   Our project offers a range of revenue streams including
                   membership (with four user profiles: Player, Club, Coach and
                   MP Brand), sponsorship and every transaction made on the
@@ -107,9 +109,9 @@ const HomeSummary = (props) => {
                   these players afford their career and give them a chance to
                   earn more recognition and opportunities.
                 </span>
+                <br className="home-summary-text11"></br>
                 <br className="home-summary-text12"></br>
-                <br className="home-summary-text13"></br>
-                <span className="home-summary-text14">
+                <span className="home-summary-text13">
                   The sponsor is looking to increase its equity participation in
                   the &quot;MP&quot; project by offering a
                   <span
@@ -118,8 +120,8 @@ const HomeSummary = (props) => {
                     }}
                   />
                 </span>
-                <span className="home-summary-text15">20%</span>
-                <span className="home-summary-text16">
+                <span className="home-summary-text14">20%</span>
+                <span className="home-summary-text15">
                   {' '}
                   equity stake valued at
                   <span
@@ -128,8 +130,8 @@ const HomeSummary = (props) => {
                     }}
                   />
                 </span>
-                <span className="home-summary-text17">$526,208</span>
-                <span className="home-summary-text18">
+                <span className="home-summary-text16">$526,208</span>
+                <span className="home-summary-text17">
                   {' '}
                   in order to become part of this new global tennis community.
                   <span
@@ -138,9 +140,9 @@ const HomeSummary = (props) => {
                     }}
                   />
                 </span>
+                <br className="home-summary-text18"></br>
                 <br className="home-summary-text19"></br>
-                <br className="home-summary-text20"></br>
-                <span className="home-summary-text21">
+                <span className="home-summary-text20">
                   The capital contribution will be applied to development
                   expenses, carrying costs, and marketing and sales expenses.
                   This investment will help drive the growth of the project and
@@ -157,23 +159,23 @@ const HomeSummary = (props) => {
             </div>
             <div className="home-summary-container07">
               <div className="home-summary-container08">
-                <Link to="/home-summary" className="home-summary-navlink07">
+                <Link to="/home-summary" className="home-summary-navlink08">
                   INTRO
                 </Link>
               </div>
               <div className="home-summary-container09">
-                <Link to="/home-project" className="home-summary-navlink08">
+                <Link to="/home-project" className="home-summary-navlink09">
                   <span>|</span>
                   <span> PROJECT</span>
                 </Link>
               </div>
               <div className="home-summary-container10">
-                <Link to="/home-overview" className="home-summary-navlink09">
+                <Link to="/home-overview" className="home-summary-navlink10">
                   | PRODUCT OVERVIEW
                 </Link>
               </div>
               <div className="home-summary-container11">
-                <Link to="/home-features" className="home-summary-navlink10">
+                <Link to="/home-features" className="home-summary-navlink11">
                   | FEATURES
                 </Link>
               </div>

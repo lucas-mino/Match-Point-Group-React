@@ -46,20 +46,22 @@ const TeamSilvanaPage = (props) => {
               </Link>
             </div>
             <div className="team-silvana-page-cma">
-              <span className="team-silvana-page-text">04  CMA</span>
+              <Link to="/cma" className="team-silvana-page-navlink4">
+                04  CMA
+              </Link>
             </div>
             <div className="team-silvana-page-financial">
-              <Link to="/financial" className="team-silvana-page-navlink4">
+              <Link to="/financial" className="team-silvana-page-navlink5">
                 05  FINANCIAL
               </Link>
             </div>
             <div className="team-silvana-page-timeline">
-              <Link to="/timeline" className="team-silvana-page-navlink5">
+              <Link to="/timeline" className="team-silvana-page-navlink6">
                 06  TIMELINE
               </Link>
             </div>
             <div className="team-silvana-page-team">
-              <Link to="/team" className="team-silvana-page-navlink6">
+              <Link to="/team" className="team-silvana-page-navlink7">
                 07  TEAM
               </Link>
             </div>
@@ -76,7 +78,7 @@ const TeamSilvanaPage = (props) => {
             <div className="team-silvana-page-container3">
               <div className="team-silvana-page-container4"></div>
               <div className="team-silvana-page-container5">
-                <span className="team-silvana-page-text01">Team</span>
+                <span className="team-silvana-page-text">Team</span>
               </div>
             </div>
             <div className="team-silvana-page-container6">
@@ -114,7 +116,7 @@ const TeamSilvanaPage = (props) => {
               </div>
             </div>
             <div className="team-silvana-page-container7">
-              <span className="team-silvana-page-text04">
+              <span className="team-silvana-page-text03">
                 <span>
                   Silvana is an experienced marketing professional who brings
                   over a decade of experience in business development,

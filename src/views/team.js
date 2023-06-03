@@ -40,20 +40,22 @@ const Team = (props) => {
               </Link>
             </div>
             <div className="team-cma">
-              <span className="team-text">04  CMA</span>
+              <Link to="/cma" className="team-navlink03">
+                04  CMA
+              </Link>
             </div>
             <div className="team-financial">
-              <Link to="/financial" className="team-navlink03">
+              <Link to="/financial" className="team-navlink04">
                 05  FINANCIAL
               </Link>
             </div>
             <div className="team-timeline">
-              <Link to="/timeline" className="team-navlink04">
+              <Link to="/timeline" className="team-navlink05">
                 06  TIMELINE
               </Link>
             </div>
             <div className="team-team">
-              <Link to="/team" className="team-navlink05">
+              <Link to="/team" className="team-navlink06">
                 07  TEAM
               </Link>
             </div>
@@ -70,15 +72,15 @@ const Team = (props) => {
             <div className="team-container3">
               <div className="team-container4"></div>
               <div className="team-container5">
-                <span className="team-text01">Team</span>
+                <span className="team-text">Team</span>
               </div>
             </div>
             <div className="team-container6">
-              <span className="team-text02">Meet our team 💪</span>
+              <span className="team-text01">Meet our team 💪</span>
             </div>
             <div className="team-container7">
               <div className="team-china">
-                <Link to="/team-silvana-page" className="team-navlink06">
+                <Link to="/team-silvana-page" className="team-navlink07">
                   <div className="team-foto">
                     <img
                       alt="image"
@@ -101,7 +103,7 @@ const Team = (props) => {
               </div>
               <div className="team-marian">
                 <div className="team-foto1">
-                  <Link to="/team-mariano-page" className="team-navlink07">
+                  <Link to="/team-mariano-page" className="team-navlink08">
                     <img
                       alt="image"
                       src="/marian-500h.png"
@@ -128,7 +130,7 @@ const Team = (props) => {
               </div>
               <div className="team-dani">
                 <div className="team-foto2">
-                  <Link to="/team-daniel-page" className="team-navlink08">
+                  <Link to="/team-daniel-page" className="team-navlink09">
                     <img
                       alt="image"
                       src="/dani-500h.png"
@@ -152,7 +154,7 @@ const Team = (props) => {
               </div>
               <div className="team-lucas">
                 <div className="team-foto3">
-                  <Link to="/team-lucas-page" className="team-navlink09">
+                  <Link to="/team-lucas-page" className="team-navlink10">
                     <img
                       alt="image"
                       src="/lucas-500h.png"

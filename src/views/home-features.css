@@ -110,23 +110,6 @@
   align-items: center;
   padding-left: var(--dl-space-space-fiveunits);
 }
-.home-features-text001 {
-  color: rgb(224, 224, 224);
-  font-size: 20px;
-  font-style: normal;
-  margin-top: var(--dl-space-space-fourunits);
-  font-family: Montserrat;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-fourunits);
-}
-.home-features-financial {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  padding-left: var(--dl-space-space-fiveunits);
-}
 .home-features-navlink03 {
   color: rgb(224, 224, 224);
   font-size: 20px;
@@ -137,7 +120,7 @@
   margin-bottom: var(--dl-space-space-fourunits);
   text-decoration: none;
 }
-.home-features-timeline {
+.home-features-financial {
   flex: 0 0 auto;
   width: 100%;
   height: 60px;
@@ -155,7 +138,7 @@
   margin-bottom: var(--dl-space-space-fourunits);
   text-decoration: none;
 }
-.home-features-team {
+.home-features-timeline {
   flex: 0 0 auto;
   width: 100%;
   height: 60px;
@@ -164,6 +147,24 @@
   padding-left: var(--dl-space-space-fiveunits);
 }
 .home-features-navlink05 {
+  color: rgb(224, 224, 224);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-fourunits);
+  font-family: Montserrat;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.home-features-team {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.home-features-navlink06 {
   color: rgb(224, 224, 224);
   font-size: 20px;
   font-style: normal;
@@ -229,7 +230,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-features-text002 {
+.home-features-text001 {
   font-size: 28px;
   align-self: flex-start;
   font-style: normal;
@@ -249,7 +250,7 @@
   justify-content: center;
   background-color: #dcfe63;
 }
-.home-features-text003 {
+.home-features-text002 {
   font-size: 24px;
   align-self: center;
   font-style: normal;
@@ -281,7 +282,7 @@
   font-weight: 700;
   background-color: rgb(220, 254, 99);
 }
-.home-features-text004 {
+.home-features-text003 {
   font-family: Montserrat;
   line-height: 1.6;
   padding-top: var(--dl-space-space-doubleunit);
@@ -294,7 +295,7 @@
   font-weight: 700;
   background-color: rgb(220, 254, 99);
 }
-.home-features-text029 {
+.home-features-text028 {
   font-family: Montserrat;
   line-height: 1.6;
   padding-top: var(--dl-space-space-doubleunit);
@@ -307,7 +308,7 @@
   font-weight: 700;
   background-color: rgb(220, 254, 99);
 }
-.home-features-text057 {
+.home-features-text056 {
   font-family: Montserrat;
   line-height: 1.6;
   padding-top: var(--dl-space-space-doubleunit);
@@ -320,7 +321,7 @@
   font-weight: 700;
   background-color: rgb(220, 254, 99);
 }
-.home-features-text083 {
+.home-features-text082 {
   font-family: Montserrat;
   line-height: 1.6;
   padding-top: var(--dl-space-space-doubleunit);
@@ -345,7 +346,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-features-navlink06 {
+.home-features-navlink07 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 400;
@@ -362,7 +363,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-features-navlink07 {
+.home-features-navlink08 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 400;
@@ -378,7 +379,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-features-navlink08 {
+.home-features-navlink09 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 400;
@@ -395,7 +396,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-features-navlink09 {
+.home-features-navlink10 {
   color: var(--dl-color-gray-white);
   padding: var(--dl-space-space-halfunit);
   font-style: normal;

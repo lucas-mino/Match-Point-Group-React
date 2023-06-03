@@ -49,18 +49,20 @@ const FinancialInvestment = (props) => {
               </Link>
             </div>
             <div className="financial-investment-cma">
-              <span className="financial-investment-text">04  CMA</span>
+              <Link to="/cma" className="financial-investment-navlink4">
+                04  CMA
+              </Link>
             </div>
             <div className="financial-investment-financial">
-              <span className="financial-investment-text01">05  FINANCIAL</span>
+              <span className="financial-investment-text">05  FINANCIAL</span>
             </div>
             <div className="financial-investment-timeline">
-              <Link to="/timeline" className="financial-investment-navlink4">
+              <Link to="/timeline" className="financial-investment-navlink5">
                 06  TIMELINE
               </Link>
             </div>
             <div className="financial-investment-team">
-              <Link to="/team" className="financial-investment-navlink5">
+              <Link to="/team" className="financial-investment-navlink6">
                 07  TEAM
               </Link>
             </div>
@@ -76,13 +78,13 @@ const FinancialInvestment = (props) => {
           <div className="financial-investment-container02">
             <div className="financial-investment-container03">
               <div className="financial-investment-container04">
-                <span className="financial-investment-text02">
+                <span className="financial-investment-text01">
                   <span>Investment</span>
                   <br></br>
                 </span>
               </div>
               <div className="financial-investment-container05">
-                <span className="financial-investment-text05">Summary</span>
+                <span className="financial-investment-text04">Financial</span>
               </div>
             </div>
             <div className="financial-investment-container06">
@@ -94,12 +96,12 @@ const FinancialInvestment = (props) => {
             </div>
             <div className="financial-investment-container07">
               <div className="financial-investment-container08">
-                <Link to="/financial" className="financial-investment-navlink6">
+                <Link to="/financial" className="financial-investment-navlink7">
                   P&amp;L  |
                 </Link>
               </div>
               <div className="financial-investment-container09">
-                <span className="financial-investment-text06">
+                <span className="financial-investment-text05">
                   <span>INVESTMENT</span>
                   <br></br>
                 </span>
@@ -107,7 +109,7 @@ const FinancialInvestment = (props) => {
               <div className="financial-investment-container10">
                 <Link
                   to="/financial-cash-flow"
-                  className="financial-investment-navlink7"
+                  className="financial-investment-navlink8"
                 >
                   <span>|   CASH FLOW</span>
                   <br></br>

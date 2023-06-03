@@ -46,20 +46,22 @@ const TeamLucasPage = (props) => {
               </Link>
             </div>
             <div className="team-lucas-page-cma">
-              <span className="team-lucas-page-text">04  CMA</span>
+              <Link to="/cma" className="team-lucas-page-navlink3">
+                04  CMA
+              </Link>
             </div>
             <div className="team-lucas-page-financial">
-              <Link to="/financial" className="team-lucas-page-navlink3">
+              <Link to="/financial" className="team-lucas-page-navlink4">
                 05  FINANCIAL
               </Link>
             </div>
             <div className="team-lucas-page-timeline">
-              <Link to="/timeline" className="team-lucas-page-navlink4">
+              <Link to="/timeline" className="team-lucas-page-navlink5">
                 06  TIMELINE
               </Link>
             </div>
             <div className="team-lucas-page-team">
-              <Link to="/team" className="team-lucas-page-navlink5">
+              <Link to="/team" className="team-lucas-page-navlink6">
                 07  TEAM
               </Link>
             </div>
@@ -76,7 +78,7 @@ const TeamLucasPage = (props) => {
             <div className="team-lucas-page-container3">
               <div className="team-lucas-page-container4"></div>
               <div className="team-lucas-page-container5">
-                <span className="team-lucas-page-text01">Team</span>
+                <span className="team-lucas-page-text">Team</span>
               </div>
             </div>
             <div className="team-lucas-page-container6">
@@ -113,7 +115,7 @@ const TeamLucasPage = (props) => {
               </div>
             </div>
             <div className="team-lucas-page-container7">
-              <span className="team-lucas-page-text06">
+              <span className="team-lucas-page-text05">
                 <span>
                   At ultrices mi tempus imperdiet nulla malesuada. Sed
                   adipiscing diam donec adipiscing tristique risus nec feugiat

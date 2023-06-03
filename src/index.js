@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
 import TeamMarianoPage from './views/team-mariano-page'
-import Page from './views/page'
 import Blank from './views/blank'
 import FinancialCashFlow from './views/financial-cash-flow'
 import HomeSummary from './views/home-summary'
@@ -13,7 +12,6 @@ import SolutionStack from './views/solution-stack'
 import SolutionPrototypes from './views/solution-prototypes'
 import FinancialPl from './views/financial-pl'
 import HomeFeatures from './views/home-features'
-import Page1 from './views/page1'
 import TeamSilvanaPage from './views/team-silvana-page'
 import SolutionOverview from './views/solution-overview'
 import Team from './views/team'
@@ -24,13 +22,13 @@ import Timeline from './views/timeline'
 import TeamDanielPage from './views/team-daniel-page'
 import HomeOverview from './views/home-overview'
 import FinancialInvestment from './views/financial-investment'
+import CMA from './views/cma'
 
 const App = () => {
   return (
     <Router>
       <div>
         <Route component={TeamMarianoPage} exact path="/team-mariano-page" />
-        <Route component={Page} exact path="/page" />
         <Route component={Blank} exact path="/blank" />
         <Route
           component={FinancialCashFlow}
@@ -47,7 +45,6 @@ const App = () => {
         />
         <Route component={FinancialPl} exact path="/financial" />
         <Route component={HomeFeatures} exact path="/home-features" />
-        <Route component={Page1} exact path="/page1" />
         <Route component={TeamSilvanaPage} exact path="/team-silvana-page" />
         <Route component={SolutionOverview} exact path="/solution-overview" />
         <Route component={Team} exact path="/team" />
@@ -62,6 +59,7 @@ const App = () => {
           exact
           path="/financial-investment"
         />
+        <Route component={CMA} exact path="/cma" />
       </div>
     </Router>
   )

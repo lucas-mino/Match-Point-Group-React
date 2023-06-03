@@ -111,23 +111,6 @@
   align-items: center;
   padding-left: var(--dl-space-space-fiveunits);
 }
-.home-summary-text {
-  color: rgb(224, 224, 224);
-  font-size: 20px;
-  font-style: normal;
-  margin-top: var(--dl-space-space-fourunits);
-  font-family: Montserrat;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-fourunits);
-}
-.home-summary-financial {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  padding-left: var(--dl-space-space-fiveunits);
-}
 .home-summary-navlink04 {
   color: rgb(224, 224, 224);
   font-size: 20px;
@@ -138,7 +121,7 @@
   margin-bottom: var(--dl-space-space-fourunits);
   text-decoration: none;
 }
-.home-summary-timeline {
+.home-summary-financial {
   flex: 0 0 auto;
   width: 100%;
   height: 60px;
@@ -156,7 +139,7 @@
   margin-bottom: var(--dl-space-space-fourunits);
   text-decoration: none;
 }
-.home-summary-team {
+.home-summary-timeline {
   flex: 0 0 auto;
   width: 100%;
   height: 60px;
@@ -165,6 +148,24 @@
   padding-left: var(--dl-space-space-fiveunits);
 }
 .home-summary-navlink06 {
+  color: rgb(224, 224, 224);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-fourunits);
+  font-family: Montserrat;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.home-summary-team {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.home-summary-navlink07 {
   color: rgb(224, 224, 224);
   font-size: 20px;
   font-style: normal;
@@ -229,7 +230,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-summary-text01 {
+.home-summary-text {
   font-size: 28px;
   align-self: flex-start;
   font-style: normal;
@@ -249,7 +250,7 @@
   justify-content: center;
   background-color: #dcfe63;
 }
-.home-summary-text04 {
+.home-summary-text03 {
   font-size: 24px;
   align-self: center;
   font-style: normal;
@@ -266,20 +267,26 @@
   padding-right: var(--dl-space-space-fourunits);
   padding-bottom: var(--dl-space-space-doubleunit);
 }
-.home-summary-text05 {
+.home-summary-text04 {
   text-align: left;
 }
-.home-summary-text06 {
+.home-summary-text05 {
   font-size: 18px;
   font-style: normal;
   font-family: Montserrat;
   font-weight: 400;
 }
-.home-summary-text07 {
+.home-summary-text06 {
   font-size: 18px;
   font-style: normal;
   font-family: Montserrat;
   font-weight: 700;
+}
+.home-summary-text07 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400;
 }
 .home-summary-text08 {
   font-size: 18px;
@@ -321,25 +328,25 @@
   font-size: 18px;
   font-style: normal;
   font-family: Montserrat;
-  font-weight: 400;
+  font-weight: 700;
 }
 .home-summary-text15 {
   font-size: 18px;
   font-style: normal;
   font-family: Montserrat;
-  font-weight: 700;
+  font-weight: 400;
 }
 .home-summary-text16 {
   font-size: 18px;
   font-style: normal;
   font-family: Montserrat;
-  font-weight: 400;
+  font-weight: 700;
 }
 .home-summary-text17 {
   font-size: 18px;
   font-style: normal;
   font-family: Montserrat;
-  font-weight: 700;
+  font-weight: 400;
 }
 .home-summary-text18 {
   font-size: 18px;
@@ -354,12 +361,6 @@
   font-weight: 400;
 }
 .home-summary-text20 {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Montserrat;
-  font-weight: 400;
-}
-.home-summary-text21 {
   font-size: 18px;
   font-style: normal;
   font-family: Montserrat;
@@ -383,7 +384,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-summary-navlink07 {
+.home-summary-navlink08 {
   color: var(--dl-color-gray-white);
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
@@ -406,7 +407,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-summary-navlink08 {
+.home-summary-navlink09 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 400;
@@ -423,7 +424,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-summary-navlink09 {
+.home-summary-navlink10 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 400;
@@ -440,7 +441,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-summary-navlink10 {
+.home-summary-navlink11 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 400;

@@ -41,20 +41,22 @@ const SolutionStack = (props) => {
               <span className="solution-stack-text">03  SOLUTION</span>
             </div>
             <div className="solution-stack-cma">
-              <span className="solution-stack-text01">04  CMA</span>
+              <Link to="/cma" className="solution-stack-navlink3">
+                04  CMA
+              </Link>
             </div>
             <div className="solution-stack-financial">
-              <Link to="/financial" className="solution-stack-navlink3">
+              <Link to="/financial" className="solution-stack-navlink4">
                 05  FINANCIAL
               </Link>
             </div>
             <div className="solution-stack-timeline">
-              <Link to="/timeline" className="solution-stack-navlink4">
+              <Link to="/timeline" className="solution-stack-navlink5">
                 06  TIMELINE
               </Link>
             </div>
             <div className="solution-stack-team">
-              <Link to="/team" className="solution-stack-navlink5">
+              <Link to="/team" className="solution-stack-navlink6">
                 07  TEAM
               </Link>
             </div>
@@ -70,13 +72,13 @@ const SolutionStack = (props) => {
           <div className="solution-stack-container02">
             <div className="solution-stack-container03">
               <div className="solution-stack-container04">
-                <span className="solution-stack-text02">
+                <span className="solution-stack-text01">
                   <span>TECHNICAL STACK</span>
                   <br></br>
                 </span>
               </div>
               <div className="solution-stack-container05">
-                <span className="solution-stack-text05">Summary</span>
+                <span className="solution-stack-text04">Solution</span>
               </div>
             </div>
             <div className="solution-stack-container06">
@@ -85,7 +87,7 @@ const SolutionStack = (props) => {
                 src="/stack-1-600h.jpg"
                 className="solution-stack-image1"
               />
-              <span className="solution-stack-text06">
+              <span className="solution-stack-text05">
                 <span>
                   The web frontend will be developed in
                   <span
@@ -94,7 +96,7 @@ const SolutionStack = (props) => {
                     }}
                   />
                 </span>
-                <span className="solution-stack-text08">React</span>
+                <span className="solution-stack-text07">React</span>
                 <span>
                   {' '}
                   and
@@ -104,7 +106,7 @@ const SolutionStack = (props) => {
                     }}
                   />
                 </span>
-                <span className="solution-stack-text10">NextJs</span>
+                <span className="solution-stack-text09">NextJs</span>
                 <span>
                   , the apps will be built in
                   <span
@@ -113,7 +115,7 @@ const SolutionStack = (props) => {
                     }}
                   />
                 </span>
-                <span className="solution-stack-text12">React Native</span>
+                <span className="solution-stack-text11">React Native</span>
                 <span>
                   {' '}
                   compiled in native language, all integrated with a backend
@@ -126,7 +128,7 @@ const SolutionStack = (props) => {
                     }}
                   />
                 </span>
-                <span className="solution-stack-text14">ERC20 tokens</span>
+                <span className="solution-stack-text13">ERC20 tokens</span>
                 <span>.</span>
                 <br></br>
                 <br></br>
@@ -138,7 +140,7 @@ const SolutionStack = (props) => {
                     }}
                   />
                 </span>
-                <span className="solution-stack-text19">JavaEE</span>
+                <span className="solution-stack-text18">JavaEE</span>
                 <span>
                   {' '}
                   accompanied by
@@ -148,7 +150,7 @@ const SolutionStack = (props) => {
                     }}
                   />
                 </span>
-                <span className="solution-stack-text21">Spring,</span>
+                <span className="solution-stack-text20">Spring,</span>
                 <span>
                   <span
                     dangerouslySetInnerHTML={{
@@ -156,7 +158,7 @@ const SolutionStack = (props) => {
                     }}
                   />
                 </span>
-                <span className="solution-stack-text23">Firebase</span>
+                <span className="solution-stack-text22">Firebase</span>
                 <span>
                   {' '}
                   and
@@ -166,7 +168,7 @@ const SolutionStack = (props) => {
                     }}
                   />
                 </span>
-                <span className="solution-stack-text25">PostgreSQL</span>
+                <span className="solution-stack-text24">PostgreSQL</span>
                 <span> among others.</span>
                 <br></br>
                 <br></br>
@@ -178,7 +180,7 @@ const SolutionStack = (props) => {
                     }}
                   />
                 </span>
-                <span className="solution-stack-text30">ERC20 tokens</span>
+                <span className="solution-stack-text29">ERC20 tokens</span>
                 <span>
                   {' '}
                   will be carried out through the Uniswap protocol in a
@@ -189,7 +191,7 @@ const SolutionStack = (props) => {
                     }}
                   />
                 </span>
-                <span className="solution-stack-text32">Ethereum</span>
+                <span className="solution-stack-text31">Ethereum</span>
                 <span> network.</span>
               </span>
             </div>
@@ -197,7 +199,7 @@ const SolutionStack = (props) => {
               <div className="solution-stack-container08">
                 <Link
                   to="/solution-overview"
-                  className="solution-stack-navlink6"
+                  className="solution-stack-navlink7"
                 >
                   OVERVIEW |
                 </Link>
@@ -205,13 +207,13 @@ const SolutionStack = (props) => {
               <div className="solution-stack-container09">
                 <Link
                   to="/solution-prototypes"
-                  className="solution-stack-navlink7"
+                  className="solution-stack-navlink8"
                 >
                   PROTOTYPES  | 
                 </Link>
               </div>
               <div className="solution-stack-container10">
-                <span className="solution-stack-text34"> STACK </span>
+                <span className="solution-stack-text33"> STACK </span>
               </div>
             </div>
           </div>

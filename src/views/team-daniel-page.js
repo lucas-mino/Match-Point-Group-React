@@ -46,20 +46,22 @@ const TeamDanielPage = (props) => {
               </Link>
             </div>
             <div className="team-daniel-page-cma">
-              <span className="team-daniel-page-text">04  CMA</span>
+              <Link to="/cma" className="team-daniel-page-navlink4">
+                04  CMA
+              </Link>
             </div>
             <div className="team-daniel-page-financial">
-              <Link to="/financial" className="team-daniel-page-navlink4">
+              <Link to="/financial" className="team-daniel-page-navlink5">
                 05  FINANCIAL
               </Link>
             </div>
             <div className="team-daniel-page-timeline">
-              <Link to="/timeline" className="team-daniel-page-navlink5">
+              <Link to="/timeline" className="team-daniel-page-navlink6">
                 06  TIMELINE
               </Link>
             </div>
             <div className="team-daniel-page-team">
-              <Link to="/team" className="team-daniel-page-navlink6">
+              <Link to="/team" className="team-daniel-page-navlink7">
                 07  TEAM
               </Link>
             </div>
@@ -76,7 +78,7 @@ const TeamDanielPage = (props) => {
             <div className="team-daniel-page-container3">
               <div className="team-daniel-page-container4"></div>
               <div className="team-daniel-page-container5">
-                <span className="team-daniel-page-text01">Team</span>
+                <span className="team-daniel-page-text">Team</span>
               </div>
             </div>
             <div className="team-daniel-page-container6">
@@ -113,7 +115,7 @@ const TeamDanielPage = (props) => {
               </div>
             </div>
             <div className="team-daniel-page-container7">
-              <span className="team-daniel-page-text06">
+              <span className="team-daniel-page-text05">
                 <span>
                   Daniel has been directly related to tennis, with success both
                   on and off the court. As a professional player, he won 8

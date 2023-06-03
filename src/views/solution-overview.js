@@ -41,20 +41,22 @@ const SolutionOverview = (props) => {
               <span className="solution-overview-text">03  SOLUTION</span>
             </div>
             <div className="solution-overview-cma">
-              <span className="solution-overview-text1">04  CMA</span>
+              <Link to="/cma" className="solution-overview-navlink3">
+                04  CMA
+              </Link>
             </div>
             <div className="solution-overview-financial">
-              <Link to="/financial" className="solution-overview-navlink3">
+              <Link to="/financial" className="solution-overview-navlink4">
                 05  FINANCIAL
               </Link>
             </div>
             <div className="solution-overview-timeline">
-              <Link to="/timeline" className="solution-overview-navlink4">
+              <Link to="/timeline" className="solution-overview-navlink5">
                 06  TIMELINE
               </Link>
             </div>
             <div className="solution-overview-team">
-              <Link to="/team" className="solution-overview-navlink5">
+              <Link to="/team" className="solution-overview-navlink6">
                 07  TEAM
               </Link>
             </div>
@@ -70,13 +72,13 @@ const SolutionOverview = (props) => {
           <div className="solution-overview-container02">
             <div className="solution-overview-container03">
               <div className="solution-overview-container04">
-                <span className="solution-overview-text2">
+                <span className="solution-overview-text1">
                   <span>OVERVIEW</span>
                   <br></br>
                 </span>
               </div>
               <div className="solution-overview-container05">
-                <span className="solution-overview-text5">Summary</span>
+                <span className="solution-overview-text4">Solution</span>
               </div>
             </div>
             <div className="solution-overview-container06">
@@ -88,12 +90,12 @@ const SolutionOverview = (props) => {
             </div>
             <div className="solution-overview-container07">
               <div className="solution-overview-container08">
-                <span className="solution-overview-text6">OVERVIEW</span>
+                <span className="solution-overview-text5">OVERVIEW</span>
               </div>
               <div className="solution-overview-container09">
                 <Link
                   to="/solution-prototypes"
-                  className="solution-overview-navlink6"
+                  className="solution-overview-navlink7"
                 >
                   |  PROTOTYPES
                 </Link>
@@ -101,7 +103,7 @@ const SolutionOverview = (props) => {
               <div className="solution-overview-container10">
                 <Link
                   to="/solution-stack"
-                  className="solution-overview-navlink7"
+                  className="solution-overview-navlink8"
                 >
                   |  STACK
                 </Link>
