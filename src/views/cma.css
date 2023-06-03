@@ -265,6 +265,7 @@
 .cma-image1 {
   width: 669px;
   height: 636px;
+  padding: var(--dl-space-space-unit);
   object-fit: cover;
 }
 @media(max-width: 767px) {
