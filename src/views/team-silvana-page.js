@@ -107,7 +107,9 @@ const TeamSilvanaPage = (props) => {
                   </a>
                 </div>
                 <div className="team-silvana-page-cargo">
-                  <span className="team-silvana-page-link3">COO</span>
+                  <span className="team-silvana-page-link3">
+                    COO &amp; Partner
+                  </span>
                 </div>
               </div>
             </div>

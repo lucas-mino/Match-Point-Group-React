@@ -88,8 +88,12 @@ const HomeProject = (props) => {
                   players. It is a digital community with physical support in
                   the contact and interaction between users, which allows all
                   members of the tennis ecosystem to come together in one
-                  platform.e are the first platform in the market developed by
-                  tennis players for tennis fans.
+                  platform.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
                 </span>
                 <span className="home-project-text08">How does MP work?</span>
                 <span className="home-project-text09">

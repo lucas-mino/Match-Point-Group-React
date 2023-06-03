@@ -76,7 +76,7 @@ const HomeOverview = (props) => {
             <div className="home-overview-container06">
               <img
                 alt="image"
-                src="/summary-600h.png"
+                src="/summary-1000w.png"
                 className="home-overview-image1"
               />
             </div>

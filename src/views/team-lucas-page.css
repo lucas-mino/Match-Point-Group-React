@@ -292,7 +292,7 @@
   align-items: flex-start;
 }
 .team-lucas-page-link3 {
-  color: #848484;
+  color: rgb(132, 132, 132);
   font-size: 16px;
   font-family: Montserrat;
 }
@@ -307,7 +307,7 @@
   padding-right: var(--dl-space-space-fiveunits);
   padding-bottom: var(--dl-space-space-fourunits);
 }
-.team-lucas-page-text04 {
+.team-lucas-page-text06 {
   text-align: justify;
   font-family: Montserrat;
 }

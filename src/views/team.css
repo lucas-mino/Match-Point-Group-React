@@ -209,7 +209,6 @@
   width: 952px;
   height: 692px;
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
   background-color: #fff;
 }
@@ -238,7 +237,7 @@
   justify-content: center;
   background-color: #dcfe63;
 }
-.team-text1 {
+.team-text01 {
   font-size: 24px;
   align-self: center;
   font-style: normal;
@@ -254,7 +253,7 @@
   align-items: flex-end;
   justify-content: flex-start;
 }
-.team-text2 {
+.team-text02 {
   color: var(--dl-color-gray-black);
   font-size: 42px;
   font-style: normal;
@@ -264,10 +263,10 @@
 }
 .team-container7 {
   width: 100%;
-  height: 50%;
+  height: 404px;
   display: flex;
-  align-items: flex-start;
-  padding-top: 60px;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
   flex-direction: row;
 }
 .team-china {
@@ -324,7 +323,7 @@
   justify-content: center;
 }
 .team-link03 {
-  color: #848484;
+  color: rgb(132, 132, 132);
   font-size: 16px;
   font-family: Montserrat;
   text-decoration: none;
@@ -383,7 +382,7 @@
   justify-content: center;
 }
 .team-link05 {
-  color: #848484;
+  color: rgb(132, 132, 132);
   font-size: 16px;
   font-family: Montserrat;
 }
@@ -438,12 +437,15 @@
   display: flex;
   align-self: center;
   align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
   justify-content: center;
 }
 .team-link07 {
   color: rgb(132, 132, 132);
   font-size: 16px;
+  text-align: center;
   font-family: Montserrat;
+  line-height: 1.2;
   text-decoration: none;
 }
 .team-lucas {
@@ -500,7 +502,7 @@
   justify-content: center;
 }
 .team-link09 {
-  color: #848484;
+  color: rgb(132, 132, 132);
   font-size: 16px;
   font-family: Montserrat;
   text-decoration: none;

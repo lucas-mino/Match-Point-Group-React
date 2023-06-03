@@ -79,7 +79,7 @@ const HomeSummary = (props) => {
               </div>
             </div>
             <div className="home-summary-container06">
-              <span>
+              <span className="home-summary-text05">
                 <span className="home-summary-text06">
                   We are excited to introduce our Uruguayan Healthtech project,
                   <span
@@ -90,16 +90,16 @@ const HomeSummary = (props) => {
                 </span>
                 <span className="home-summary-text07">Match Point</span>
                 <span className="home-summary-text08">
-                  , which we are developing in partnership with Xoolix. Match
-                  Point is already making waves in Argentina and we believe it
-                  has tremendous potential to disrupt the global tennis
-                  ecosystem.
+                  , which we are developing in partnership with a leading
+                  software development company. Match Point is already making
+                  waves in Argentina, and we believe it has tremendous potential
+                  to disrupt the global tennis ecosystem.
                 </span>
                 <br className="home-summary-text09"></br>
                 <br className="home-summary-text10"></br>
                 <span className="home-summary-text11">
                   Our project offers a range of revenue streams including
-                  membership (with four user profiles: player, club, coach and
+                  membership (with four user profiles: Player, Club, Coach and
                   MP Brand), sponsorship and every transaction made on the
                   platform. We are also planning to introduce a new feature that
                   will allow semi-professional players to acquire tokens that

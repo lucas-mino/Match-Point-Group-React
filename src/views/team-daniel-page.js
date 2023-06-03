@@ -106,13 +106,14 @@ const TeamDanielPage = (props) => {
                     rel="noreferrer noopener"
                     className="team-daniel-page-link2"
                   >
-                    Brand Ambassador
+                    <span>Brand Ambassador </span>
+                    <span>&amp; Partner</span>
                   </a>
                 </div>
               </div>
             </div>
             <div className="team-daniel-page-container7">
-              <span className="team-daniel-page-text04">
+              <span className="team-daniel-page-text06">
                 <span>
                   Daniel has been directly related to tennis, with success both
                   on and off the court. As a professional player, he won 8

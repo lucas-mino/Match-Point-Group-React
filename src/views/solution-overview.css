@@ -260,13 +260,10 @@
   height: 568px;
   display: flex;
   align-items: flex-start;
-  padding-top: var(--dl-space-space-fourunits);
-  padding-left: var(--dl-space-space-fourunits);
-  padding-right: var(--dl-space-space-fourunits);
-  padding-bottom: var(--dl-space-space-unit);
 }
 .solution-overview-image1 {
   width: 100%;
+  padding: 70px;
   object-fit: cover;
 }
 .solution-overview-container07 {

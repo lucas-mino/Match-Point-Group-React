@@ -79,7 +79,7 @@ const FinancialPl = (props) => {
             <div className="financial-pl-container06">
               <img
                 alt="image"
-                src="/pyl-800w.jpg"
+                src="/pyl-1000w.png"
                 className="financial-pl-image1"
               />
             </div>

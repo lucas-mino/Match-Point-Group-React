@@ -106,13 +106,14 @@ const TeamLucasPage = (props) => {
                     rel="noreferrer noopener"
                     className="team-lucas-page-link3"
                   >
-                    CCO
+                    <span>CCO </span>
+                    <span>&amp; Partner</span>
                   </a>
                 </div>
               </div>
             </div>
             <div className="team-lucas-page-container7">
-              <span className="team-lucas-page-text04">
+              <span className="team-lucas-page-text06">
                 <span>
                   At ultrices mi tempus imperdiet nulla malesuada. Sed
                   adipiscing diam donec adipiscing tristique risus nec feugiat

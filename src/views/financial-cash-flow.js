@@ -84,8 +84,8 @@ const FinancialCashFlow = (props) => {
             </div>
             <div className="financial-cash-flow-container06">
               <img
-                src="/cashflow-600h.jpg"
                 alt="image"
+                src="/cashflow-600h.png"
                 className="financial-cash-flow-image1"
               />
             </div>

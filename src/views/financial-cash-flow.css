@@ -269,6 +269,7 @@
 }
 .financial-cash-flow-image1 {
   width: 100%;
+  padding: var(--dl-space-space-doubleunit);
   object-fit: cover;
 }
 .financial-cash-flow-container07 {
