@@ -91,7 +91,7 @@ const TeamSilvanaPage = (props) => {
                 >
                   <img
                     alt="image"
-                    src="/china-200h.png"
+                    src="/china-li-200h.png"
                     className="team-silvana-page-image1"
                   />
                 </a>

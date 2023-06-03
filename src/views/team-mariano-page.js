@@ -91,7 +91,7 @@ const TeamMarianoPage = (props) => {
                 >
                   <img
                     alt="image"
-                    src="/marian-200h.png"
+                    src="/marian-li-200h.png"
                     className="team-mariano-page-image1"
                   />
                 </a>

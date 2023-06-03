@@ -85,7 +85,7 @@ const TeamDanielPage = (props) => {
               <div className="team-daniel-page-foto">
                 <img
                   alt="image"
-                  src="/dani-200h.png"
+                  src="/dani-li-200h.png"
                   className="team-daniel-page-image1"
                 />
               </div>
