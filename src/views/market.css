@@ -298,7 +298,7 @@
   padding-left: var(--dl-space-space-fourunits);
 }
 .market-image3 {
-  width: 60%;
+  width: 55%;
   align-self: flex-start;
   object-fit: cover;
   padding-top: var(--dl-space-space-unit);
@@ -320,7 +320,7 @@
   padding-left: var(--dl-space-space-fourunits);
 }
 .market-image4 {
-  width: 60%;
+  width: 55%;
   object-fit: cover;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-fourunits);
@@ -341,7 +341,7 @@
   padding-left: var(--dl-space-space-fourunits);
 }
 .market-image5 {
-  width: 60%;
+  width: 55%;
   object-fit: cover;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-fourunits);
