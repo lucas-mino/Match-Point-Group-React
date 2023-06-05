@@ -35,25 +35,27 @@ const HomeFeatures = (props) => {
               </Link>
             </div>
             <div className="home-features-solution">
-              <span className="home-features-text">03  SOLUTION</span>
+              <Link to="/solution-overview" className="home-features-navlink03">
+                03  SOLUTION
+              </Link>
             </div>
             <div className="home-features-cma">
-              <Link to="/cma" className="home-features-navlink03">
+              <Link to="/cma" className="home-features-navlink04">
                 04  CMA
               </Link>
             </div>
             <div className="home-features-financial">
-              <Link to="/financial" className="home-features-navlink04">
+              <Link to="/financial" className="home-features-navlink05">
                 05  FINANCIAL
               </Link>
             </div>
             <div className="home-features-timeline">
-              <Link to="/timeline" className="home-features-navlink05">
+              <Link to="/timeline" className="home-features-navlink06">
                 06  TIMELINE
               </Link>
             </div>
             <div className="home-features-team">
-              <Link to="/team" className="home-features-navlink06">
+              <Link to="/team" className="home-features-navlink07">
                 07  TEAM
               </Link>
             </div>
@@ -69,16 +71,16 @@ const HomeFeatures = (props) => {
           <div className="home-features-container02">
             <div className="home-features-container03">
               <div className="home-features-container04">
-                <span className="home-features-text001">MAIN FEATURES</span>
+                <span className="home-features-text">MAIN FEATURES</span>
               </div>
               <div className="home-features-container05">
-                <span className="home-features-text002">Summary</span>
+                <span className="home-features-text001">Summary</span>
               </div>
             </div>
             <div className="home-features-container06">
               <div className="home-features-container07">
                 <span className="home-features-players">Players</span>
-                <span className="home-features-text003">
+                <span className="home-features-text002">
                   <span>
                     1. Login/Registration
                     <span
@@ -186,7 +188,7 @@ const HomeFeatures = (props) => {
                   <br></br>
                 </span>
                 <span className="home-features-players1">Coaches</span>
-                <span className="home-features-text028">
+                <span className="home-features-text027">
                   <span>1. Login/Register</span>
                   <br></br>
                   <span>2. Recover password</span>
@@ -216,7 +218,7 @@ const HomeFeatures = (props) => {
                   <span>14. Tournaments: Find, reserve and pay pitch (MP)</span>
                 </span>
                 <span className="home-features-players2">Clubs</span>
-                <span className="home-features-text056">
+                <span className="home-features-text055">
                   <span>
                     1.Login
                     <span
@@ -251,7 +253,7 @@ const HomeFeatures = (props) => {
                   <br></br>
                 </span>
                 <span className="home-features-players3">MP Brand</span>
-                <span className="home-features-text082">
+                <span className="home-features-text081">
                   <span>1.Landing page</span>
                   <br></br>
                   <span>2.Login &amp; password recovery</span>
@@ -281,22 +283,22 @@ const HomeFeatures = (props) => {
             </div>
             <div className="home-features-container08">
               <div className="home-features-container09">
-                <Link to="/home-summary" className="home-features-navlink07">
+                <Link to="/home-summary" className="home-features-navlink08">
                   INTRO
                 </Link>
               </div>
               <div className="home-features-container10">
-                <Link to="/home-project" className="home-features-navlink08">
+                <Link to="/home-project" className="home-features-navlink09">
                   | PROJECT
                 </Link>
               </div>
               <div className="home-features-container11">
-                <Link to="/home-overview" className="home-features-navlink09">
+                <Link to="/home-overview" className="home-features-navlink10">
                   | PRODUCT OVERVIEW |
                 </Link>
               </div>
               <div className="home-features-container12">
-                <Link to="/home-features" className="home-features-navlink10">
+                <Link to="/home-features" className="home-features-navlink11">
                   {' '}
                   FEATURES
                 </Link>

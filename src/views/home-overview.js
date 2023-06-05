@@ -35,25 +35,27 @@ const HomeOverview = (props) => {
               </Link>
             </div>
             <div className="home-overview-solution">
-              <span className="home-overview-text">03  SOLUTION</span>
+              <Link to="/solution-overview" className="home-overview-navlink03">
+                03  SOLUTION
+              </Link>
             </div>
             <div className="home-overview-cma">
-              <Link to="/cma" className="home-overview-navlink03">
+              <Link to="/cma" className="home-overview-navlink04">
                 04  CMA
               </Link>
             </div>
             <div className="home-overview-financial">
-              <Link to="/financial" className="home-overview-navlink04">
+              <Link to="/financial" className="home-overview-navlink05">
                 05  FINANCIAL
               </Link>
             </div>
             <div className="home-overview-timeline">
-              <Link to="/timeline" className="home-overview-navlink05">
+              <Link to="/timeline" className="home-overview-navlink06">
                 06  TIMELINE
               </Link>
             </div>
             <div className="home-overview-team">
-              <Link to="/team" className="home-overview-navlink06">
+              <Link to="/team" className="home-overview-navlink07">
                 07  TEAM
               </Link>
             </div>
@@ -69,10 +71,10 @@ const HomeOverview = (props) => {
           <div className="home-overview-container02">
             <div className="home-overview-container03">
               <div className="home-overview-container04">
-                <span className="home-overview-text1">PRODUCT OVERVIEW</span>
+                <span className="home-overview-text">PRODUCT OVERVIEW</span>
               </div>
               <div className="home-overview-container05">
-                <span className="home-overview-text2">Summary</span>
+                <span className="home-overview-text1">Summary</span>
               </div>
             </div>
             <div className="home-overview-container06">
@@ -84,22 +86,22 @@ const HomeOverview = (props) => {
             </div>
             <div className="home-overview-container07">
               <div className="home-overview-container08">
-                <Link to="/home-summary" className="home-overview-navlink07">
+                <Link to="/home-summary" className="home-overview-navlink08">
                   INTRO
                 </Link>
               </div>
               <div className="home-overview-container09">
-                <Link to="/home-project" className="home-overview-navlink08">
+                <Link to="/home-project" className="home-overview-navlink09">
                   | PROJECT |
                 </Link>
               </div>
               <div className="home-overview-container10">
-                <Link to="/home-overview" className="home-overview-navlink09">
+                <Link to="/home-overview" className="home-overview-navlink10">
                   PRODUCT OVERVIEW
                 </Link>
               </div>
               <div className="home-overview-container11">
-                <Link to="/home-features" className="home-overview-navlink10">
+                <Link to="/home-features" className="home-overview-navlink11">
                   | FEATURES
                 </Link>
               </div>

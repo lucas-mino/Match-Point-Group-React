@@ -93,23 +93,6 @@
   align-items: center;
   padding-left: var(--dl-space-space-fiveunits);
 }
-.home-project-text {
-  color: rgb(224, 224, 224);
-  font-size: 20px;
-  font-style: normal;
-  margin-top: var(--dl-space-space-fourunits);
-  font-family: Montserrat;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-fourunits);
-}
-.home-project-cma {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  padding-left: var(--dl-space-space-fiveunits);
-}
 .home-project-navlink03 {
   color: rgb(224, 224, 224);
   font-size: 20px;
@@ -120,7 +103,7 @@
   margin-bottom: var(--dl-space-space-fourunits);
   text-decoration: none;
 }
-.home-project-financial {
+.home-project-cma {
   flex: 0 0 auto;
   width: 100%;
   height: 60px;
@@ -138,7 +121,7 @@
   margin-bottom: var(--dl-space-space-fourunits);
   text-decoration: none;
 }
-.home-project-timeline {
+.home-project-financial {
   flex: 0 0 auto;
   width: 100%;
   height: 60px;
@@ -156,7 +139,7 @@
   margin-bottom: var(--dl-space-space-fourunits);
   text-decoration: none;
 }
-.home-project-team {
+.home-project-timeline {
   flex: 0 0 auto;
   width: 100%;
   height: 60px;
@@ -165,6 +148,24 @@
   padding-left: var(--dl-space-space-fiveunits);
 }
 .home-project-navlink06 {
+  color: rgb(224, 224, 224);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-fourunits);
+  font-family: Montserrat;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.home-project-team {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.home-project-navlink07 {
   color: rgb(224, 224, 224);
   font-size: 20px;
   font-style: normal;
@@ -230,7 +231,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-project-text01 {
+.home-project-text {
   font-size: 28px;
   align-self: flex-start;
   font-style: normal;
@@ -250,7 +251,7 @@
   justify-content: center;
   background-color: #dcfe63;
 }
-.home-project-text02 {
+.home-project-text01 {
   font-size: 24px;
   align-self: center;
   font-style: normal;
@@ -276,60 +277,60 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-project-text03 {
+.home-project-text02 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 700;
+}
+.home-project-text03 {
+  font-family: Montserrat;
 }
 .home-project-text04 {
+  font-style: normal;
   font-family: Montserrat;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-doubleunit);
 }
 .home-project-text05 {
-  font-style: normal;
   font-family: Montserrat;
-  font-weight: 700;
-  padding-top: var(--dl-space-space-doubleunit);
 }
 .home-project-text06 {
+  font-style: normal;
   font-family: Montserrat;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-doubleunit);
 }
 .home-project-text07 {
+  font-family: Montserrat;
+}
+.home-project-text10 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 700;
   padding-top: var(--dl-space-space-doubleunit);
-}
-.home-project-text08 {
-  font-family: Montserrat;
 }
 .home-project-text11 {
+  font-family: Montserrat;
+}
+.home-project-text14 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 700;
   padding-top: var(--dl-space-space-doubleunit);
-}
-.home-project-text12 {
-  font-family: Montserrat;
 }
 .home-project-text15 {
+  font-family: Montserrat;
+}
+.home-project-text18 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 700;
   padding-top: var(--dl-space-space-doubleunit);
-}
-.home-project-text16 {
-  font-family: Montserrat;
 }
 .home-project-text19 {
-  font-style: normal;
-  font-family: Montserrat;
-  font-weight: 700;
-  padding-top: var(--dl-space-space-doubleunit);
-}
-.home-project-text20 {
   font-family: Montserrat;
 }
-.home-project-text23 {
+.home-project-text22 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 700;
@@ -338,16 +339,16 @@
   padding-right: 0px;
   padding-bottom: 0px;
 }
-.home-project-text24 {
+.home-project-text23 {
   font-family: Montserrat;
 }
-.home-project-text27 {
+.home-project-text26 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 700;
   padding-top: var(--dl-space-space-doubleunit);
 }
-.home-project-text28 {
+.home-project-text27 {
   font-family: Montserrat;
 }
 .home-project-container08 {
@@ -368,7 +369,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-project-navlink07 {
+.home-project-navlink08 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 400;
@@ -385,7 +386,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-project-navlink08 {
+.home-project-navlink09 {
   color: var(--dl-color-gray-white);
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
@@ -404,7 +405,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-project-navlink09 {
+.home-project-navlink10 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 400;
@@ -421,7 +422,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-project-navlink10 {
+.home-project-navlink11 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 400;
