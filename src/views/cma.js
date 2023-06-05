@@ -72,8 +72,8 @@ const CMA = (props) => {
             <div className="cma-container6">
               <div className="cma-container7">
                 <img
-                  src="/cma-700h.png"
                   alt="image"
+                  src="/cma-700h.png"
                   loading="lazy"
                   className="cma-image1"
                 />

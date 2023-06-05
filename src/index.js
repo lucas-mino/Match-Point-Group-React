@@ -20,9 +20,9 @@ import HomeProject from './views/home-project'
 import Market from './views/market'
 import Timeline from './views/timeline'
 import TeamDanielPage from './views/team-daniel-page'
+import CMA from './views/cma'
 import HomeOverview from './views/home-overview'
 import FinancialInvestment from './views/financial-investment'
-import CMA from './views/cma'
 
 const App = () => {
   return (
@@ -53,13 +53,13 @@ const App = () => {
         <Route component={Market} exact path="/market" />
         <Route component={Timeline} exact path="/timeline" />
         <Route component={TeamDanielPage} exact path="/team-daniel-page" />
+        <Route component={CMA} exact path="/cma" />
         <Route component={HomeOverview} exact path="/home-overview" />
         <Route
           component={FinancialInvestment}
           exact
           path="/financial-investment"
         />
-        <Route component={CMA} exact path="/cma" />
       </div>
     </Router>
   )

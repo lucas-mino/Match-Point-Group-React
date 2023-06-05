@@ -117,13 +117,19 @@ const TeamLucasPage = (props) => {
             <div className="team-lucas-page-container7">
               <span className="team-lucas-page-text05">
                 <span>
-                  At ultrices mi tempus imperdiet nulla malesuada. Sed
-                  adipiscing diam donec adipiscing tristique risus nec feugiat
-                  in. Adipiscing tristique risus nec feugiat in. Vel fringilla
-                  est ullamcorper eget nulla facilisi etiam dignissim. Duis at
-                  tellus at urna. Mattis vulputate enim nulla aliquet porttitor
-                  lacus luctus. Malesuada nunc vel risus commodo viverra.
-                  Tincidunt lobortis feugiat vivamus at augue eget arcu.
+                  Lucas is a technology expert with more than 15 years of
+                  experience developing digital products and managing
+                  high-performance agile teams, with more than 50 digital
+                  products developed throughout his career.
+                </span>
+                <br></br>
+                <br></br>
+                <span>
+                  Graduated from the Universidad Argentina de la Empresa and
+                  later from the University of Palermo and with more than 100
+                  projects implemented, he has multiple tools to evaluate,
+                  approach, understand and develop technological projects of any
+                  nature.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -133,46 +139,20 @@ const TeamLucasPage = (props) => {
                 <br></br>
                 <br></br>
                 <span>
-                  Donec adipiscing tristique risus nec feugiat in fermentum. Leo
-                  vel orci porta non pulvinar neque. Diam ut venenatis tellus in
-                  metus vulputate eu scelerisque. In mollis nunc sed id. Euismod
-                  lacinia at quis risus sed vulputate. Ut consequat semper
-                  viverra nam libero justo laoreet sit. Gravida dictum fusce ut
-                  placerat orci nulla pellentesque dignissim. Sed augue lacus
-                  viverra vitae congue eu. Nunc non blandit massa enim nec dui
-                  nunc mattis.
+                  In 2015, he was one of those responsible for transforming the
+                  development team of a major bank in Argentina, with more than
+                  20 teams formed and 10 relaunched products. In 2016 he
+                  co-founded XOOLIX, a technology services company focused on
+                  business transformation from technology. Since that year he
+                  has participated in the transformation of several companies in
+                  which XOOLIX provides services.
                 </span>
                 <br></br>
                 <br></br>
                 <span>
-                  At ultrices mi tempus imperdiet nulla malesuada. Sed
-                  adipiscing diam donec adipiscing tristique risus nec feugiat
-                  in. Adipiscing tristique risus nec feugiat in. Vel fringilla
-                  est ullamcorper eget nulla facilisi etiam dignissim. Duis at
-                  tellus at urna. Mattis vulputate enim nulla aliquet porttitor
-                  lacus luctus.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  XOOLIX has a presence in many industries in America and has
+                  offices in Argentina and Uruguay. Lucas is the CEO.
                 </span>
-                <br></br>
-                <br></br>
-                <span>
-                  Malesuada nunc vel risus commodo viverra. Tincidunt lobortis
-                  feugiat vivamus at augue eget arcu. Donec adipiscing tristique
-                  risus nec feugiat in fermentum. Leo vel orci porta non
-                  pulvinar neque. Diam ut venenatis tellus in metus vulputate eu
-                  scelerisque. In mollis nunc sed id. Euismod lacinia at quis
-                  risus sed vulputate.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br></br>
               </span>
             </div>
           </div>

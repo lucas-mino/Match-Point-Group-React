@@ -309,8 +309,10 @@
   padding-bottom: var(--dl-space-space-fourunits);
 }
 .team-lucas-page-text05 {
+  font-size: 18px;
   text-align: justify;
   font-family: Montserrat;
+  line-height: 1.6;
 }
 @media(max-width: 767px) {
   .team-lucas-page-header {
