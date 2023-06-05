@@ -83,19 +83,26 @@ const TeamLucasPage = (props) => {
             </div>
             <div className="team-lucas-page-container6">
               <div className="team-lucas-page-foto">
-                <img
-                  alt="image"
-                  src="/lucas-li-200h.png"
-                  className="team-lucas-page-image1"
-                />
+                <a
+                  href="https://www.linkedin.com/in/lucas-mi%C3%B1o/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="team-lucas-page-link2"
+                >
+                  <img
+                    alt="image"
+                    src="/lucas-li-200h.png"
+                    className="team-lucas-page-image1"
+                  />
+                </a>
               </div>
               <div className="team-lucas-page-nombre">
                 <div className="team-lucas-page-nombre1">
                   <a
-                    href="https://example.com"
+                    href="https://www.linkedin.com/in/lucas-mi%C3%B1o/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="team-lucas-page-link2"
+                    className="team-lucas-page-link3"
                   >
                     <span>Lucas Miño</span>
                     <br></br>
@@ -106,7 +113,7 @@ const TeamLucasPage = (props) => {
                     href="https://example.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="team-lucas-page-link3"
+                    className="team-lucas-page-link4"
                   >
                     <span>CCO </span>
                     <span>&amp; Partner</span>
