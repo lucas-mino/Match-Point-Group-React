@@ -94,7 +94,7 @@ const FinancialPl = (props) => {
                   to="/financial-investment"
                   className="financial-pl-navlink7"
                 >
-                  <span>I  NVESTMENT</span>
+                  <span>I  INVESTMENT</span>
                   <br></br>
                 </Link>
               </div>
