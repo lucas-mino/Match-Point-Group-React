@@ -284,7 +284,7 @@
   background-color: rgb(220, 254, 99);
 }
 .home-features-text002 {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   line-height: 1.6;
   padding-top: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-tripleunit);
@@ -296,7 +296,7 @@
   font-weight: 700;
   background-color: rgb(220, 254, 99);
 }
-.home-features-text027 {
+.home-features-text029 {
   font-family: Montserrat;
   line-height: 1.6;
   padding-top: var(--dl-space-space-doubleunit);
@@ -309,7 +309,7 @@
   font-weight: 700;
   background-color: rgb(220, 254, 99);
 }
-.home-features-text055 {
+.home-features-text057 {
   font-family: Montserrat;
   line-height: 1.6;
   padding-top: var(--dl-space-space-doubleunit);
@@ -322,7 +322,7 @@
   font-weight: 700;
   background-color: rgb(220, 254, 99);
 }
-.home-features-text081 {
+.home-features-text083 {
   font-family: Montserrat;
   line-height: 1.6;
   padding-top: var(--dl-space-space-doubleunit);

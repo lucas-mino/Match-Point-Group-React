@@ -83,7 +83,7 @@ const HomeSummary = (props) => {
             <div className="home-summary-container06">
               <span className="home-summary-text04">
                 <span className="home-summary-text05">
-                  We are excited to introduce our Uruguayan Healthtech project,
+                  We are thrilled to introduce our Uruguayan Healthtech project,
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -94,20 +94,20 @@ const HomeSummary = (props) => {
                 <span className="home-summary-text07">
                   , which we are developing in partnership with a leading
                   software development company. Match Point is already making
-                  waves in Argentina, and we believe it has tremendous potential
-                  to disrupt the global tennis ecosystem.
+                  waves in Argentina, based on it&apos;s tremendous potential to
+                  disrupt the global tennis ecosystem.
                 </span>
                 <br className="home-summary-text08"></br>
                 <br className="home-summary-text09"></br>
                 <span className="home-summary-text10">
-                  Our project offers a range of revenue streams including
-                  membership (with four user profiles: Player, Club, Coach and
-                  MP Brand), sponsorship and every transaction made on the
-                  platform. We are also planning to introduce a new feature that
-                  will allow semi-professional players to acquire tokens that
-                  vary in value according to their performance. This will help
-                  these players afford their career and give them a chance to
-                  earn more recognition and opportunities.
+                  Our project offers a range of revenue streams that include
+                  four membership profiles (Player, Club, Coach and MP Brand),
+                  sponsorship and monetization of every transaction made on the
+                  platform. Once established, Match Point will introduce a new
+                  feature that will allow semi-professional players to acquire
+                  tokens that vary in value according to their performance. This
+                  will give players the possibility of both afford their career
+                  and earn more recognition and opportunities.
                 </span>
                 <br className="home-summary-text11"></br>
                 <br className="home-summary-text12"></br>

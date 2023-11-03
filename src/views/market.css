@@ -18,7 +18,7 @@
   padding-bottom: 32px;
   justify-content: space-between;
 }
-.market-container1 {
+.market-container01 {
   flex: 0 0 auto;
   width: 287px;
   height: 47px;
@@ -204,7 +204,7 @@
   border-radius: 0px;
   background-color: var(--dl-color-gray-900);
 }
-.market-container2 {
+.market-container02 {
   flex: 0 0 auto;
   width: 952px;
   height: 692px;
@@ -213,14 +213,14 @@
   flex-direction: column;
   background-color: #fff;
 }
-.market-container3 {
+.market-container03 {
   flex: 0 0 auto;
   width: 100%;
   height: 60px;
   display: flex;
   align-items: flex-start;
 }
-.market-container4 {
+.market-container04 {
   flex: 0 0 auto;
   width: 658px;
   height: 60px;
@@ -230,7 +230,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.market-container5 {
+.market-container05 {
   flex: 0 0 auto;
   width: 301px;
   height: 60px;
@@ -247,7 +247,7 @@
   font-family: Montserrat;
   font-weight: 700;
 }
-.market-container6 {
+.market-container06 {
   width: 100%;
   height: 630px;
   display: flex;
@@ -255,7 +255,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.market-container7 {
+.market-container07 {
   width: 915px;
   height: 960px;
   display: flex;
@@ -292,47 +292,59 @@
 .market-text10 {
   font-size: 20px;
   font-style: normal;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-weight: 600;
-  padding-top: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-tripleunit);
   padding-left: var(--dl-space-space-fourunits);
+}
+.market-container08 {
+  width: 951px;
+  height: 431px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: center;
+}
+.market-container09 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 .market-image3 {
-  width: 55%;
-  align-self: flex-start;
+  width: 338px;
+  height: 324px;
+  margin-top: var(--dl-space-space-tripleunit);
   object-fit: cover;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-fourunits);
-  padding-bottom: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-tripleunit);
 }
 .market-text11 {
-  text-align: justify;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-fourunits);
-  padding-bottom: var(--dl-space-space-unit);
+  font-size: 18px;
+  align-self: center;
+  font-family: "Montserrat";
 }
-.market-text15 {
-  font-size: 20px;
-  font-style: normal;
-  font-family: Montserrat;
-  font-weight: 600;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-fourunits);
+.market-container10 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 .market-image4 {
-  width: 55%;
+  width: 338px;
+  height: 324px;
+  margin-top: var(--dl-space-space-tripleunit);
   object-fit: cover;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-fourunits);
-  padding-bottom: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-tripleunit);
 }
-.market-text16 {
-  text-align: justify;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-fourunits);
-  padding-bottom: var(--dl-space-space-unit);
+.market-text12 {
+  font-size: 18px;
+  align-self: center;
+  font-family: "Montserrat";
 }
-.market-text20 {
+.market-text13 {
   font-size: 20px;
   font-style: normal;
   font-family: Montserrat;
@@ -342,12 +354,55 @@
 }
 .market-image5 {
   width: 55%;
+  align-self: flex-start;
   object-fit: cover;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-fourunits);
   padding-bottom: var(--dl-space-space-unit);
 }
-.market-text21 {
+.market-text14 {
+  text-align: justify;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.market-text18 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-fourunits);
+}
+.market-image6 {
+  width: 55%;
+  object-fit: cover;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.market-text19 {
+  text-align: justify;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.market-text23 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-fourunits);
+}
+.market-image7 {
+  width: 55%;
+  object-fit: cover;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.market-text24 {
   text-align: justify;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-fourunits);

@@ -184,11 +184,16 @@ const HomeFeatures = (props) => {
                     />
                   </span>
                   <br></br>
-                  <span>12. Geolocation</span>
+                  <span>12. Geolocation of opponents, clubs and coaches</span>
+                  <br></br>
+                  <span>
+                    13. Alerts: pre match alert, post booking alert, pre match
+                    alert, weather alert
+                  </span>
                   <br></br>
                 </span>
                 <span className="home-features-players1">Coaches</span>
-                <span className="home-features-text027">
+                <span className="home-features-text029">
                   <span>1. Login/Register</span>
                   <br></br>
                   <span>2. Recover password</span>
@@ -218,7 +223,7 @@ const HomeFeatures = (props) => {
                   <span>14. Tournaments: Find, reserve and pay pitch (MP)</span>
                 </span>
                 <span className="home-features-players2">Clubs</span>
-                <span className="home-features-text055">
+                <span className="home-features-text057">
                   <span>
                     1.Login
                     <span
@@ -253,7 +258,7 @@ const HomeFeatures = (props) => {
                   <br></br>
                 </span>
                 <span className="home-features-players3">MP Brand</span>
-                <span className="home-features-text081">
+                <span className="home-features-text083">
                   <span>1.Landing page</span>
                   <br></br>
                   <span>2.Login &amp; password recovery</span>

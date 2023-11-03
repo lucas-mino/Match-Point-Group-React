@@ -1,6 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from 'react-router-dom'
 
 import './style.css'
 import TeamMarianoPage from './views/team-mariano-page'
@@ -12,6 +17,7 @@ import SolutionStack from './views/solution-stack'
 import SolutionPrototypes from './views/solution-prototypes'
 import FinancialPl from './views/financial-pl'
 import HomeFeatures from './views/home-features'
+import FinancialPlBu from './views/financial-pl-bu'
 import TeamSilvanaPage from './views/team-silvana-page'
 import SolutionOverview from './views/solution-overview'
 import Team from './views/team'
@@ -23,11 +29,12 @@ import TeamDanielPage from './views/team-daniel-page'
 import CMA from './views/cma'
 import HomeOverview from './views/home-overview'
 import FinancialInvestment from './views/financial-investment'
+import NotFound from './views/not-found'
 
 const App = () => {
   return (
     <Router>
-      <div>
+      <Switch>
         <Route component={TeamMarianoPage} exact path="/team-mariano-page" />
         <Route component={Blank} exact path="/blank" />
         <Route
@@ -45,6 +52,7 @@ const App = () => {
         />
         <Route component={FinancialPl} exact path="/financial" />
         <Route component={HomeFeatures} exact path="/home-features" />
+        <Route component={FinancialPlBu} exact path="/financial1" />
         <Route component={TeamSilvanaPage} exact path="/team-silvana-page" />
         <Route component={SolutionOverview} exact path="/solution-overview" />
         <Route component={Team} exact path="/team" />
@@ -60,7 +68,9 @@ const App = () => {
           exact
           path="/financial-investment"
         />
-      </div>
+        <Route component={NotFound} path="**" />
+        <Redirect to="**" />
+      </Switch>
     </Router>
   )
 }

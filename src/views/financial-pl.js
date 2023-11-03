@@ -13,7 +13,7 @@ const FinancialPl = (props) => {
         <meta property="og:title" content="Financial-pl - Match Point Group" />
       </Helmet>
       <header data-role="Header" className="financial-pl-header">
-        <div className="financial-pl-container01">
+        <div className="financial-pl-container1">
           <div className="financial-pl-menu">
             <div className="financial-pl-logo">
               <Link to="/" className="financial-pl-navlink">
@@ -66,48 +66,24 @@ const FinancialPl = (props) => {
               </a>
             </div>
           </div>
-          <div className="financial-pl-container02">
-            <div className="financial-pl-container03">
-              <div className="financial-pl-container04">
-                <span className="financial-pl-text01">
+          <div className="financial-pl-container2">
+            <div className="financial-pl-container3">
+              <div className="financial-pl-container4">
+                <span className="financial-pl-text1">
                   <span>P&amp;L </span>
                   <br></br>
                 </span>
               </div>
-              <div className="financial-pl-container05">
-                <span className="financial-pl-text04">Financial</span>
+              <div className="financial-pl-container5">
+                <span className="financial-pl-text4">Financial</span>
               </div>
             </div>
-            <div className="financial-pl-container06">
+            <div className="financial-pl-container6">
               <img
                 alt="image"
-                src="/pyl-1000w.png"
+                src="/p-l-1000w.png"
                 className="financial-pl-image1"
               />
-            </div>
-            <div className="financial-pl-container07">
-              <div className="financial-pl-container08">
-                <span className="financial-pl-text05">P&amp;L</span>
-              </div>
-              <div className="financial-pl-container09">
-                <Link
-                  to="/financial-investment"
-                  className="financial-pl-navlink7"
-                >
-                  <span>I  INVESTMENT</span>
-                  <br></br>
-                </Link>
-              </div>
-              <div className="financial-pl-container10">
-                <Link
-                  to="/financial-cash-flow"
-                  className="financial-pl-navlink8"
-                >
-                  <span>|   CASH FLOW</span>
-                  <br></br>
-                </Link>
-              </div>
-              <div className="financial-pl-container11"></div>
             </div>
           </div>
         </div>

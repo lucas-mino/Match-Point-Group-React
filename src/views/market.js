@@ -13,7 +13,7 @@ const Market = (props) => {
         <meta property="og:title" content="Market - Match Point Group" />
       </Helmet>
       <header data-role="Header" className="market-header">
-        <div className="market-container1">
+        <div className="market-container01">
           <div className="market-menu">
             <div className="market-logo">
               <Link to="/" className="market-navlink">
@@ -68,15 +68,15 @@ const Market = (props) => {
               </a>
             </div>
           </div>
-          <div className="market-container2">
-            <div className="market-container3">
-              <div className="market-container4"></div>
-              <div className="market-container5">
+          <div className="market-container02">
+            <div className="market-container03">
+              <div className="market-container04"></div>
+              <div className="market-container05">
                 <span className="market-text">Market</span>
               </div>
             </div>
-            <div className="market-container6">
-              <div className="market-container7">
+            <div className="market-container06">
+              <div className="market-container07">
                 <img
                   alt="image"
                   src="/opportunity-1000h.jpg"
@@ -116,13 +116,32 @@ const Market = (props) => {
                   </span>
                   <br></br>
                 </span>
-                <span className="market-text10">SES</span>
+                <span className="market-text10">Market Size</span>
+                <div className="market-container08">
+                  <div className="market-container09">
+                    <img
+                      alt="image"
+                      src="/global-market-400h.png"
+                      className="market-image3"
+                    />
+                    <span className="market-text11">Total Market</span>
+                  </div>
+                  <div className="market-container10">
+                    <img
+                      alt="image"
+                      src="/mp-market-400h.png"
+                      className="market-image4"
+                    />
+                    <span className="market-text12">MP Market Goals</span>
+                  </div>
+                </div>
+                <span className="market-text13">SES</span>
                 <img
                   alt="image"
                   src="/ses-1000h.jpg"
-                  className="market-image3"
+                  className="market-image5"
                 />
-                <span className="market-text11">
+                <span className="market-text14">
                   <span>
                     Tennis is a popular sport among enthusiasts in Latin
                     America, and more people are becoming interested in
@@ -135,15 +154,15 @@ const Market = (props) => {
                   <br></br>
                   <br></br>
                 </span>
-                <span className="market-text15">
+                <span className="market-text18">
                   Fans purchase intention (next 12 months)
                 </span>
                 <img
                   alt="image"
                   src="/purchase-intension-1000h.jpg"
-                  className="market-image4"
+                  className="market-image6"
                 />
-                <span className="market-text16">
+                <span className="market-text19">
                   <span>
                     This rise in amateur tennis has led to an increase in demand
                     for tennis-related products and services such as rackets,
@@ -154,15 +173,15 @@ const Market = (props) => {
                   <br></br>
                   <br></br>
                 </span>
-                <span className="market-text20">
+                <span className="market-text23">
                   Fans media consumption habits
                 </span>
                 <img
                   alt="image"
                   src="/fans-media-1000h.jpg"
-                  className="market-image5"
+                  className="market-image7"
                 />
-                <span className="market-text21">
+                <span className="market-text24">
                   In summary, the practice of amateur tennis in Latin America is
                   an essential factor to consider when analyzing the
                   region&apos;s tennis market.

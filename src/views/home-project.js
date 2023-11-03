@@ -138,16 +138,27 @@ const HomeProject = (props) => {
                   </span>
                   <br></br>
                 </span>
-                <span className="home-project-text18">Team</span>
+                <span className="home-project-text18">Healthtech</span>
                 <span className="home-project-text19">
+                  <span>
+                    MP is both a Tennis community and a HealthTech. Through a
+                    series of features, MP allows players to monitor physical
+                    performance and receive alerts based on previous information
+                    compared to current states, weather conditions and healthy
+                    tips for sports practice.
+                  </span>
+                  <br></br>
+                </span>
+                <span className="home-project-text22">Team</span>
+                <span className="home-project-text23">
                   <span>
                     Our team is made up of experts in tennis, technology, and
                     business, committed to the success of MP.
                   </span>
                   <br></br>
                 </span>
-                <span className="home-project-text22">Growth Strategy</span>
-                <span className="home-project-text23">
+                <span className="home-project-text26">Growth Strategy</span>
+                <span className="home-project-text27">
                   <span>
                     In order to continue our growth, we plan to expand our reach
                     globally, constantly improving our technology and increasing
@@ -155,8 +166,8 @@ const HomeProject = (props) => {
                   </span>
                   <br></br>
                 </span>
-                <span className="home-project-text26">Funding</span>
-                <span className="home-project-text27">
+                <span className="home-project-text30">Funding</span>
+                <span className="home-project-text31">
                   <span>
                     We are seeking investors who believe in our vision and are
                     willing to help us reach our potential. The funding will be

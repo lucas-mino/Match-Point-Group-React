@@ -84,7 +84,7 @@ const Timeline = (props) => {
               <div className="timeline-container8">
                 <img
                   alt="timeline"
-                  src="/sin%20ti%CC%81tulo-1-600h.jpg"
+                  src="/timeline-v2-600h.png"
                   loading="lazy"
                   className="timeline-image1"
                 />

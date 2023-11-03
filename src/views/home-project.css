@@ -323,21 +323,18 @@
 }
 .home-project-text18 {
   font-style: normal;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-weight: 700;
   padding-top: var(--dl-space-space-doubleunit);
 }
 .home-project-text19 {
-  font-family: Montserrat;
+  font-family: "Montserrat";
 }
 .home-project-text22 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 700;
   padding-top: var(--dl-space-space-doubleunit);
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
 }
 .home-project-text23 {
   font-family: Montserrat;
@@ -347,8 +344,20 @@
   font-family: Montserrat;
   font-weight: 700;
   padding-top: var(--dl-space-space-doubleunit);
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
 }
 .home-project-text27 {
+  font-family: Montserrat;
+}
+.home-project-text30 {
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-doubleunit);
+}
+.home-project-text31 {
   font-family: Montserrat;
 }
 .home-project-container08 {
