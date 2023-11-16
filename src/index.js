@@ -29,6 +29,7 @@ import TeamDanielPage from './views/team-daniel-page'
 import CMA from './views/cma'
 import HomeOverview from './views/home-overview'
 import FinancialInvestment from './views/financial-investment'
+import FinancialCashFlowBU from './views/financial-cash-flow-bu'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -67,6 +68,11 @@ const App = () => {
           component={FinancialInvestment}
           exact
           path="/financial-investment"
+        />
+        <Route
+          component={FinancialCashFlowBU}
+          exact
+          path="/financial-cash-flow1"
         />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />

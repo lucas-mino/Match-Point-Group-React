@@ -75,46 +75,53 @@ const FinancialCashFlow = (props) => {
           <div className="financial-cash-flow-container02">
             <div className="financial-cash-flow-container03">
               <div className="financial-cash-flow-container04">
-                <span className="financial-cash-flow-text01">
+                <span className="financial-cash-flow-text1">
                   <span>Cash Flow</span>
                   <br></br>
                 </span>
               </div>
               <div className="financial-cash-flow-container05">
-                <span className="financial-cash-flow-text04">Financial</span>
+                <span className="financial-cash-flow-text4">Financial</span>
               </div>
             </div>
             <div className="financial-cash-flow-container06">
-              <img
-                alt="image"
-                src="/cashflow-600h.png"
-                className="financial-cash-flow-image1"
-              />
+              <div className="financial-cash-flow-container07">
+                <div className="financial-cash-flow-container08">
+                  <img
+                    src="/graph_1-900w.png"
+                    alt="image"
+                    className="financial-cash-flow-image1"
+                  />
+                </div>
+                <div className="financial-cash-flow-container09">
+                  <img
+                    src="/graph_1-900w.png"
+                    alt="image"
+                    className="financial-cash-flow-image2"
+                  />
+                </div>
+                <div className="financial-cash-flow-container10">
+                  <img
+                    src="/graph_1-900w.png"
+                    alt="image"
+                    className="financial-cash-flow-image3"
+                  />
+                </div>
+              </div>
             </div>
-            <div className="financial-cash-flow-container07">
-              <div className="financial-cash-flow-container08">
+            <div className="financial-cash-flow-container11">
+              <div className="financial-cash-flow-container12">
                 <Link to="/financial" className="financial-cash-flow-navlink7">
                   P&amp;L  |
                 </Link>
               </div>
-              <div className="financial-cash-flow-container09">
-                <Link
-                  to="/financial-investment"
-                  className="financial-cash-flow-navlink8"
-                >
-                  <span className="financial-cash-flow-text05">
-                    INVESTMENT   |
-                  </span>
-                  <br className="financial-cash-flow-text06"></br>
-                </Link>
-              </div>
-              <div className="financial-cash-flow-container10">
-                <span className="financial-cash-flow-text07">
+              <div className="financial-cash-flow-container13">
+                <span className="financial-cash-flow-text5">
                   <span>CASH FLOW</span>
                   <br></br>
                 </span>
               </div>
-              <div className="financial-cash-flow-container11"></div>
+              <div className="financial-cash-flow-container14"></div>
             </div>
           </div>
         </div>
