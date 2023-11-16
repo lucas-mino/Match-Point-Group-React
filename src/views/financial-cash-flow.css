@@ -319,13 +319,27 @@
   margin-bottom: var(--dl-space-space-tripleunit);
 }
 .financial-cash-flow-container11 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.financial-cash-flow-image4 {
+  width: 847px;
+  height: 493px;
+  margin-top: var(--dl-space-space-tripleunit);
+  object-fit: cover;
+  margin-right: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-tripleunit);
+}
+.financial-cash-flow-container12 {
   width: 100%;
   height: 66px;
   display: flex;
   align-items: flex-start;
   padding-left: var(--dl-space-space-tripleunit);
 }
-.financial-cash-flow-container12 {
+.financial-cash-flow-container13 {
   flex: 0 0 auto;
   width: 66px;
   height: 100%;
@@ -348,7 +362,7 @@
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.financial-cash-flow-container13 {
+.financial-cash-flow-container14 {
   flex: 0 0 auto;
   width: 190px;
   height: 100%;
@@ -367,7 +381,7 @@
   font-weight: 700;
   background-color: var(--dl-color-gray-black);
 }
-.financial-cash-flow-container14 {
+.financial-cash-flow-container15 {
   flex: 0 0 auto;
   width: 575px;
   height: 100%;
