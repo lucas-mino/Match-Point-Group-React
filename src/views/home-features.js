@@ -81,51 +81,24 @@ const HomeFeatures = (props) => {
               <div className="home-features-container07">
                 <span className="home-features-players">Players</span>
                 <span className="home-features-text002">
-                  <span>
-                    1. Login/Registration
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
+                  <span>1. Login/Registration   </span>
+                  <span className="home-features-text004">MVP</span>
+                  <br></br>
+                  <span>2. Password recovery    </span>
+                  <span className="home-features-text007">MVP</span>
                   <br></br>
                   <span>
-                    2. Password recovery
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <br></br>
-                  <span>
-                    3. Downloading the app for pitch reservation in the club
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
+                    3. Downloading the app for pitch reservation in the club  
                   </span>
                   <br></br>
                   <span>
                     4. Player Profile: Personal data | Contact details | Billing
-                    and collection data (PM profile)
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
+                    and collection data (PM profile)   
                   </span>
+                  <span className="home-features-text012">MVP</span>
                   <br></br>
-                  <span>
-                    5. Search, reserve and pay pitch (MP)
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
+                  <span>5. Search, reserve and pay pitch (MP).  </span>
+                  <span className="home-features-text015">MVP</span>
                   <br></br>
                   <span>
                     6. Search and select coach: By name | By location |
@@ -138,40 +111,19 @@ const HomeFeatures = (props) => {
                   </span>
                   <br></br>
                   <span>
-                    7. Search and select opponent (Singles and Doubles)
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
+                    7. Search and select opponent (Singles and Doubles)   
                   </span>
+                  <span className="home-features-text020">MVP</span>
+                  <br></br>
+                  <span>8. Contact between players</span>
                   <br></br>
                   <span>
-                    8. Contact between players
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
+                    9. Classification in the ranking (Singles and Doubles)   
                   </span>
+                  <span className="home-features-text025">MVP</span>
                   <br></br>
-                  <span>
-                    9. Classification in the ranking (Singles and Doubles)
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <br></br>
-                  <span>
-                    10. Entry and confirmation of results
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
+                  <span>10. Entry and confirmation of results   </span>
+                  <span className="home-features-text028">MVP</span>
                   <br></br>
                   <span>
                     11. Registration in tournaments: Closed tournaments: by
@@ -188,19 +140,24 @@ const HomeFeatures = (props) => {
                   <br></br>
                   <span>
                     13. Alerts: pre match alert, post booking alert, pre match
-                    alert, weather alert
+                    alert, weather alert   
                   </span>
+                  <span className="home-features-text035">MVP</span>
                   <br></br>
                 </span>
                 <span className="home-features-players1">Coaches</span>
-                <span className="home-features-text029">
-                  <span>1. Login/Register</span>
+                <span className="home-features-text037">
+                  <span>1. Login/Register   </span>
+                  <span className="home-features-text039">MVP</span>
                   <br></br>
-                  <span>2. Recover password</span>
+                  <span>2. Recover password   </span>
+                  <span className="home-features-text042">MVP</span>
                   <br></br>
-                  <span>3. Trainer profile</span>
+                  <span>3. Trainer profile   </span>
+                  <span className="home-features-text045">MVP</span>
                   <br></br>
-                  <span>4. Personal data</span>
+                  <span>4. Personal data   </span>
+                  <span className="home-features-text048">MVP</span>
                   <br></br>
                   <span>5. Specific data - background / CV</span>
                   <br></br>
@@ -214,7 +171,8 @@ const HomeFeatures = (props) => {
                   <br></br>
                   <span>10. Class charge (MP)</span>
                   <br></br>
-                  <span>11. Class management</span>
+                  <span>11. Class management   </span>
+                  <span className="home-features-text063">MVP</span>
                   <br></br>
                   <span>12. Management and set up of tournaments</span>
                   <br></br>
@@ -223,23 +181,20 @@ const HomeFeatures = (props) => {
                   <span>14. Tournaments: Find, reserve and pay pitch (MP)</span>
                 </span>
                 <span className="home-features-players2">Clubs</span>
-                <span className="home-features-text057">
-                  <span>
-                    1.Login
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
+                <span className="home-features-text070">
+                  <span>1.Login   </span>
+                  <span className="home-features-text072">MVP</span>
                   <br></br>
-                  <span>2. Password recovery</span>
+                  <span>2. Password recovery   </span>
+                  <span className="home-features-text075">MVP</span>
                   <br></br>
-                  <span>3.Club profile</span>
+                  <span>3.Club profile   </span>
+                  <span className="home-features-text078">MVP</span>
                   <br></br>
                   <span>4.Club &amp; contact info</span>
                   <br></br>
-                  <span>5.Courts management</span>
+                  <span>5.Courts management   </span>
+                  <span className="home-features-text083">MVP</span>
                   <br></br>
                   <span>6.Price management (morning/afternoon/evening)</span>
                   <br></br>
@@ -249,7 +204,8 @@ const HomeFeatures = (props) => {
                   <br></br>
                   <span>9.Coaches management</span>
                   <br></br>
-                  <span>10.Reservations and payments</span>
+                  <span>10.Reservations and payments   </span>
+                  <span className="home-features-text094">MVP</span>
                   <br></br>
                   <span>11.Users &amp; invitations management</span>
                   <br></br>
@@ -258,7 +214,7 @@ const HomeFeatures = (props) => {
                   <br></br>
                 </span>
                 <span className="home-features-players3">MP Brand</span>
-                <span className="home-features-text083">
+                <span className="home-features-text101">
                   <span>1.Landing page</span>
                   <br></br>
                   <span>2.Login &amp; password recovery</span>

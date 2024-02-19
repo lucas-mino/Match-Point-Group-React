@@ -290,18 +290,70 @@
   padding-left: var(--dl-space-space-tripleunit);
   padding-bottom: var(--dl-space-space-doubleunit);
 }
+.home-features-text004 {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
+.home-features-text007 {
+  font-weight: 700;
+  background-color: rgb(217, 217, 217);
+}
+.home-features-text012 {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
+.home-features-text015 {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
+.home-features-text020 {
+  font-weight: 700;
+  background-color: rgb(220, 220, 220);
+}
+.home-features-text025 {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
+.home-features-text028 {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
+.home-features-text035 {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
 .home-features-players1 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 700;
   background-color: rgb(220, 254, 99);
 }
-.home-features-text029 {
-  font-family: Montserrat;
+.home-features-text037 {
+  font-family: "Montserrat";
   line-height: 1.6;
   padding-top: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-tripleunit);
   padding-bottom: var(--dl-space-space-doubleunit);
+}
+.home-features-text039 {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
+.home-features-text042 {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
+.home-features-text045 {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
+.home-features-text048 {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
+.home-features-text063 {
+  font-weight: 700;
+  background-color: rgb(220, 220, 220);
 }
 .home-features-players2 {
   font-style: normal;
@@ -309,12 +361,32 @@
   font-weight: 700;
   background-color: rgb(220, 254, 99);
 }
-.home-features-text057 {
-  font-family: Montserrat;
+.home-features-text070 {
+  font-family: "Montserrat";
   line-height: 1.6;
   padding-top: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-tripleunit);
   padding-bottom: var(--dl-space-space-doubleunit);
+}
+.home-features-text072 {
+  font-weight: 700;
+  background-color: rgb(216, 216, 216);
+}
+.home-features-text075 {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
+.home-features-text078 {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
+.home-features-text083 {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
+.home-features-text094 {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
 }
 .home-features-players3 {
   font-style: normal;
@@ -322,7 +394,7 @@
   font-weight: 700;
   background-color: rgb(220, 254, 99);
 }
-.home-features-text083 {
+.home-features-text101 {
   font-family: Montserrat;
   line-height: 1.6;
   padding-top: var(--dl-space-space-doubleunit);
