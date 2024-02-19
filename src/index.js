@@ -27,9 +27,9 @@ import Market from './views/market'
 import Timeline from './views/timeline'
 import TeamDanielPage from './views/team-daniel-page'
 import CMA from './views/cma'
+import FinancialCashFlowBU from './views/financial-cash-flow-bu'
 import HomeOverview from './views/home-overview'
 import FinancialInvestment from './views/financial-investment'
-import FinancialCashFlowBU from './views/financial-cash-flow-bu'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -63,16 +63,16 @@ const App = () => {
         <Route component={Timeline} exact path="/timeline" />
         <Route component={TeamDanielPage} exact path="/team-daniel-page" />
         <Route component={CMA} exact path="/cma" />
+        <Route
+          component={FinancialCashFlowBU}
+          exact
+          path="/financial-cash-flow1"
+        />
         <Route component={HomeOverview} exact path="/home-overview" />
         <Route
           component={FinancialInvestment}
           exact
           path="/financial-investment"
-        />
-        <Route
-          component={FinancialCashFlowBU}
-          exact
-          path="/financial-cash-flow1"
         />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />

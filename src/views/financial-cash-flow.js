@@ -88,29 +88,29 @@ const FinancialCashFlow = (props) => {
               <div className="financial-cash-flow-container07">
                 <div className="financial-cash-flow-container08">
                   <img
-                    src="/graph_1-900w.png"
                     alt="image"
+                    src="/graph_1-900w.png"
                     className="financial-cash-flow-image1"
                   />
                 </div>
                 <div className="financial-cash-flow-container09">
                   <img
-                    src="/graph_1-900w.png"
                     alt="image"
+                    src="/graph_2-900w.png"
                     className="financial-cash-flow-image2"
                   />
                 </div>
                 <div className="financial-cash-flow-container10">
                   <img
-                    src="/graph_1-900w.png"
                     alt="image"
+                    src="/graph_3-900w.png"
                     className="financial-cash-flow-image3"
                   />
                 </div>
                 <div className="financial-cash-flow-container11">
                   <img
-                    src="/graph_4-900w.png"
                     alt="image"
+                    src="/graph_4-900w.png"
                     className="financial-cash-flow-image4"
                   />
                 </div>

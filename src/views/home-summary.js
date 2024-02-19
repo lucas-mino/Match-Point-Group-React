@@ -112,37 +112,6 @@ const HomeSummary = (props) => {
                 <br className="home-summary-text11"></br>
                 <br className="home-summary-text12"></br>
                 <span className="home-summary-text13">
-                  The sponsor is looking to increase its equity participation in
-                  the &quot;MP&quot; project by offering a
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-summary-text14">20%</span>
-                <span className="home-summary-text15">
-                  {' '}
-                  equity stake valued at
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-summary-text16">$526,208</span>
-                <span className="home-summary-text17">
-                  {' '}
-                  in order to become part of this new global tennis community.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br className="home-summary-text18"></br>
-                <br className="home-summary-text19"></br>
-                <span className="home-summary-text20">
                   The capital contribution will be applied to development
                   expenses, carrying costs, and marketing and sales expenses.
                   This investment will help drive the growth of the project and
