@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
+import HomeMvp from './views/home-mvp'
 import TeamMarianoPage from './views/team-mariano-page'
 import Blank from './views/blank'
 import FinancialCashFlow from './views/financial-cash-flow'
@@ -36,6 +37,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
+        <Route component={HomeMvp} exact path="/home-mvp" />
         <Route component={TeamMarianoPage} exact path="/team-mariano-page" />
         <Route component={Blank} exact path="/blank" />
         <Route

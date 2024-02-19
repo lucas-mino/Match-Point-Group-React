@@ -186,6 +186,7 @@ const HomeProject = (props) => {
               </div>
               <div className="home-project-container10">
                 <Link to="/home-project" className="home-project-navlink09">
+                  {' '}
                   PROJECT
                 </Link>
               </div>
@@ -196,7 +197,12 @@ const HomeProject = (props) => {
               </div>
               <div className="home-project-container12">
                 <Link to="/home-features" className="home-project-navlink11">
-                  | FEATURES
+                  | FEATURES |
+                </Link>
+              </div>
+              <div className="home-project-container13">
+                <Link to="/home-mvp" className="home-project-navlink12">
+                  MVP
                 </Link>
               </div>
             </div>

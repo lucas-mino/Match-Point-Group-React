@@ -145,7 +145,12 @@ const HomeSummary = (props) => {
               </div>
               <div className="home-summary-container11">
                 <Link to="/home-features" className="home-summary-navlink11">
-                  | FEATURES
+                  | FEATURES |
+                </Link>
+              </div>
+              <div className="home-summary-container12">
+                <Link to="/home-mvp" className="home-summary-navlink12">
+                  MVP
                 </Link>
               </div>
             </div>

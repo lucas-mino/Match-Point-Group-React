@@ -294,7 +294,8 @@ const HomeFeatures = (props) => {
               </div>
               <div className="home-features-container10">
                 <Link to="/home-project" className="home-features-navlink09">
-                  | PROJECT
+                  <span>|</span>
+                  <span> PROJECT</span>
                 </Link>
               </div>
               <div className="home-features-container11">
@@ -304,8 +305,17 @@ const HomeFeatures = (props) => {
               </div>
               <div className="home-features-container12">
                 <Link to="/home-features" className="home-features-navlink11">
-                  {' '}
                   FEATURES
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </Link>
+              </div>
+              <div className="home-features-container13">
+                <Link to="/home-mvp" className="home-features-navlink12">
+                  | MVP
                 </Link>
               </div>
             </div>
